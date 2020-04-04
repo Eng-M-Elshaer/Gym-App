@@ -23,5 +23,9 @@ class DayCellVC: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    func configureCell(cellData:String){
+        dayLabel.text = cellData
+    }
 
 }

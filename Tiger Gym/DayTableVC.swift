@@ -59,17 +59,16 @@ extension DayTableVC : UITableViewDataSource {
         
         switch myChose {
         case 0:
-            cell.dayLabel.text = ScheduleData.genralDay[index]
+            cell.configureCell(cellData: ScheduleData.genralDay[index])
         case 1 ... 2:
-            cell.dayLabel.text = ScheduleData.trainDay[index]
+            cell.configureCell(cellData: ScheduleData.trainDay[index])
         case 3 ... 4:
-            cell.dayLabel.text = ScheduleData.lossTrainDay[index]
+            cell.configureCell(cellData: ScheduleData.lossTrainDay[index])
         case 5:
-            cell.dayLabel.text = ScheduleData.superTrainDay[index]
+            cell.configureCell(cellData: ScheduleData.superTrainDay[index])
         default:
-            cell.dayLabel.text = ScheduleData.trainDay[index]
+            cell.configureCell(cellData: ScheduleData.trainDay[index])
         }
-        
         
         return cell
 

@@ -22,5 +22,9 @@ class MainCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
+    func configureCell(cellData:String){
+        mainTypeLabel.text = cellData
+    }
 
 }

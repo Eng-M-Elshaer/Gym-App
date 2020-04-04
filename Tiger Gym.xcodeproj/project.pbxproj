@@ -113,8 +113,8 @@
 			isa = PBXGroup;
 			children = (
 				646E1FA21FB505BA00012C8C /* MainCell.swift */,
-				646E1FAA1FB5127000012C8C /* TrainListCellVC.swift */,
 				646E1FA41FB50DC300012C8C /* TheDayCellVC.swift */,
+				646E1FAA1FB5127000012C8C /* TrainListCellVC.swift */,
 			);
 			name = Cells;
 			sourceTree = "<group>";
