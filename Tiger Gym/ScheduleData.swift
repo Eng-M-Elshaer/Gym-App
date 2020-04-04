@@ -91,7 +91,7 @@ struct ScheduleData {
     static let denf_LegTable = ["إطالات متحركه","سكوات واسع","طعن","رجل امامي","رجل خلفي","سمانه واقف","سمانه جالس","مشايه","عجله","تويست","بطن جانبي"]
     
     
-    // Image VC
+    // Train VC
     
     static let bulk_A = "12 10 8 8"
     static let loss = "15 20 25"
