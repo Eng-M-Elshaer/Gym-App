@@ -1539,7 +1539,7 @@ class TrainVC: UIViewController {
             theTimer.invalidate()
             trainCountLabel.text = "\(theRealTime) Min"
             startLabel.isHidden = false
-            playSound(TheToneName: toneName)
+            playSound(TheToneName: ScheduleData.toneName)
             showAlert()
             
         } else if time == 0 {

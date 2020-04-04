@@ -14,7 +14,6 @@ class ToneVC: UIViewController{
 
     @IBOutlet weak var toneTableView: UITableView!
     
-    var toneName = "Ascending"
     let tonesName = ["Alarm","Ascending","Danger"]
     var player = AVAudioPlayer()
     var playing = false
@@ -76,17 +75,17 @@ extension ToneVC : UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        toneName = tonesName[indexPath.row]
+        ScheduleData.toneName = tonesName[indexPath.row]
         
         if playing == false {
             
-            play(toneName: toneName)
+            play(toneName: ScheduleData.toneName)
             playing = true
             
         } else if playing == true {
             
             player.stop()
-            play(toneName: toneName)
+            play(toneName: ScheduleData.toneName)
             playing = false
             
         }

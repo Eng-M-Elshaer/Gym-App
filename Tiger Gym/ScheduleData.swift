@@ -106,5 +106,8 @@ struct ScheduleData {
     static let train8 = "8 8 8"
     static let train103 = "10 10 10"
     static let train104 = "10 10 10 10"
+    
+    // Tone VC
+    static var toneName = "Ascending"
 
 }
