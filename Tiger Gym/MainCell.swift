@@ -8,9 +8,9 @@
 
 import UIKit
 
-class TheMainCell: UITableViewCell {
+class MainCell: UITableViewCell {
 
-    @IBOutlet weak var TheMainType: UILabel!
+    @IBOutlet weak var mainTypeLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

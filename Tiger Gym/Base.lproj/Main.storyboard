@@ -23,7 +23,7 @@
                                 <color key="separatorColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TheCell" rowHeight="64" id="BhY-YP-zVC" customClass="TheMainCell" customModule="Tiger_Gym" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TheCell" rowHeight="64" id="BhY-YP-zVC" customClass="MainCell" customModule="Tiger_Gym" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="592" height="64"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="BhY-YP-zVC" id="toL-Ew-jhX">
@@ -31,7 +31,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Type" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gQD-BN-h6t">
-                                                    <rect key="frame" x="142.5" y="21" width="35.5" height="22"/>
+                                                    <rect key="frame" x="278.5" y="21" width="35.5" height="22"/>
                                                     <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                                     <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -44,7 +44,7 @@
                                             <constraint firstItem="gQD-BN-h6t" firstAttribute="centerY" secondItem="BhY-YP-zVC" secondAttribute="centerY" id="UG1-zu-mWy"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="TheMainType" destination="gQD-BN-h6t" id="e1A-hj-gfc"/>
+                                            <outlet property="mainTypeLabel" destination="gQD-BN-h6t" id="e1A-hj-gfc"/>
                                             <segue destination="ZdM-aL-ASa" kind="show" identifier="TypeToDay" id="afb-m1-JWn"/>
                                         </connections>
                                     </tableViewCell>
@@ -91,7 +91,7 @@
                                 <color key="separatorColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TheDayCell" id="oBx-Av-6Yn" customClass="TheDayCellVC" customModule="Tiger_Gym" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TheDayCell" id="oBx-Av-6Yn" customClass="DayCellVC" customModule="Tiger_Gym" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="592" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oBx-Av-6Yn" id="VL7-Uu-rch">
@@ -99,7 +99,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Day" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jzO-lQ-exa">
-                                                    <rect key="frame" x="128.5" y="11" width="63" height="22"/>
+                                                    <rect key="frame" x="264.5" y="11" width="63" height="22"/>
                                                     <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                                     <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -112,7 +112,7 @@
                                             <constraint firstItem="jzO-lQ-exa" firstAttribute="centerX" secondItem="oBx-Av-6Yn" secondAttribute="centerX" id="VGb-yP-JxN"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="TheDay" destination="jzO-lQ-exa" id="3Yz-E7-SFJ"/>
+                                            <outlet property="dayLabel" destination="jzO-lQ-exa" id="3Yz-E7-SFJ"/>
                                             <segue destination="wcR-6r-hyv" kind="show" identifier="DayToTrain" id="k9l-P9-g9z"/>
                                         </connections>
                                     </tableViewCell>
@@ -148,17 +148,17 @@
                         <viewControllerLayoutGuide type="top" id="tNw-l8-qAh"/>
                         <viewControllerLayoutGuide type="bottom" id="xUQ-f8-VcH"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="HkW-fO-eui">
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="HkW-fO-eui">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Gdv-1z-rvo">
-                                <rect key="frame" x="4" y="0.0" width="592" height="536"/>
+                                <rect key="frame" x="4" y="0.0" width="592" height="530"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="separatorColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexBackgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TheTrainCell" id="dJZ-Oe-FhN" customClass="TheTrainCellVC" customModule="Tiger_Gym" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="TheTrainCell" id="dJZ-Oe-FhN" customClass="TrainListCellVC" customModule="Tiger_Gym" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="592" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="dJZ-Oe-FhN" id="nfQ-28-JYs">
@@ -166,7 +166,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Train" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ve9-9p-0wz">
-                                                    <rect key="frame" x="123" y="11" width="74.5" height="22"/>
+                                                    <rect key="frame" x="259" y="11" width="74.5" height="22"/>
                                                     <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                                     <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -180,7 +180,7 @@
                                             <constraint firstItem="Ve9-9p-0wz" firstAttribute="centerX" secondItem="dJZ-Oe-FhN" secondAttribute="centerX" id="xUF-6z-4hk"/>
                                         </constraints>
                                         <connections>
-                                            <outlet property="TheTrain" destination="Ve9-9p-0wz" id="tAJ-dO-Y2E"/>
+                                            <outlet property="trainLabel" destination="Ve9-9p-0wz" id="tAJ-dO-Y2E"/>
                                             <segue destination="z1p-6D-6wY" kind="show" identifier="TrainToImage" id="lGv-SI-nyY"/>
                                         </connections>
                                     </tableViewCell>
@@ -216,39 +216,39 @@
                         <viewControllerLayoutGuide type="top" id="TBL-Nl-Klw"/>
                         <viewControllerLayoutGuide type="bottom" id="tAM-Uv-xW2"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="FR4-h4-2ac">
+                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="FR4-h4-2ac">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1Tr-pf-8BL">
-                                <rect key="frame" x="20" y="16" width="560" height="340"/>
+                                <rect key="frame" x="20" y="16" width="560" height="334"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Count :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5ix-M6-uTe">
-                                <rect key="frame" x="20" y="374" width="90.5" height="22"/>
+                                <rect key="frame" x="20" y="368" width="90.5" height="22"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                 <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Yq-gA-TMy">
-                                <rect key="frame" x="556.5" y="374" width="23.5" height="22"/>
+                                <rect key="frame" x="556.5" y="368" width="23.5" height="22"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                 <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="The Weight :" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iFP-0r-ym9">
-                                <rect key="frame" x="20" y="415.5" width="102" height="22"/>
+                                <rect key="frame" x="20" y="409.5" width="102" height="22"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                 <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="---" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yic-o0-MDs">
-                                <rect key="frame" x="556.5" y="415" width="23.5" height="22"/>
+                                <rect key="frame" x="556.5" y="409" width="23.5" height="22"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="20"/>
                                 <color key="textColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fvy-WM-bV2">
-                                <rect key="frame" x="273" y="460" width="54" height="39"/>
+                                <rect key="frame" x="273" y="454" width="54" height="39"/>
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
@@ -302,12 +302,12 @@
                         <viewControllerLayoutGuide type="top" id="NfO-qo-JTz"/>
                         <viewControllerLayoutGuide type="bottom" id="Zqk-G0-qJc"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" misplaced="YES" id="yYf-mO-kqd">
+                    <view key="view" contentMode="scaleToFill" id="yYf-mO-kqd">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xer-Qk-syf">
-                                <rect key="frame" x="4" y="0.0" width="592" height="530"/>
+                                <rect key="frame" x="4" y="0.0" width="592" height="536"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="separatorColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="sectionIndexColor" red="1" green="0.50196081400000003" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>

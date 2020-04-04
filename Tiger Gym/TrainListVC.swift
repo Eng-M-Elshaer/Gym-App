@@ -130,89 +130,89 @@ extension TrainListVC : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = trainTableView.dequeueReusableCell(withIdentifier: "TheTrainCell") as! TheTrainCellVC
+        let cell = trainTableView.dequeueReusableCell(withIdentifier: "TheTrainCell") as! TrainListCellVC
         
         if chosenTrain == 0 {
             
-            cell.TheTrain.text = ScheduleData.genralTable[indexPath.row]
+            cell.trainLabel.text = ScheduleData.genralTable[indexPath.row]
             
         }
             
         else if chosenTrain == 1 {
             
             if chosenDay == 0 {
-                cell.TheTrain.text = ScheduleData.bulk_A_ChestTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.bulk_A_ChestTable[indexPath.row]
             } else if chosenDay == 1 {
-                cell.TheTrain.text = ScheduleData.bulk_A_BackTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.bulk_A_BackTable[indexPath.row]
             } else if chosenDay == 2 {
-                cell.TheTrain.text = ScheduleData.bulk_A_SholTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.bulk_A_SholTable[indexPath.row]
             } else if chosenDay == 3 {
-                cell.TheTrain.text = ScheduleData.bulk_A_ArmTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.bulk_A_ArmTable[indexPath.row]
             } else {
-                cell.TheTrain.text = ScheduleData.bulk_A_LegTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.bulk_A_LegTable[indexPath.row]
             }
             
             
         } else if chosenTrain == 2 {
             
             if chosenDay == 0 {
-                cell.TheTrain.text = ScheduleData.bulk_B_ChestTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.bulk_B_ChestTable[indexPath.row]
             } else if chosenDay == 1 {
-                cell.TheTrain.text = ScheduleData.bulk_B_BackTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.bulk_B_BackTable[indexPath.row]
             } else if chosenDay == 2 {
-                cell.TheTrain.text = ScheduleData.bulk_B_SholTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.bulk_B_SholTable[indexPath.row]
             } else if chosenDay == 3 {
-                cell.TheTrain.text = ScheduleData.bulk_B_ArmTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.bulk_B_ArmTable[indexPath.row]
             } else {
-                cell.TheTrain.text = ScheduleData.bulk_B_LegTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.bulk_B_LegTable[indexPath.row]
             }
             
         } else if chosenTrain == 3 {
             
             if chosenDay == 0 {
-                cell.TheTrain.text = ScheduleData.loss_A_ChestTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.loss_A_ChestTable[indexPath.row]
             } else if chosenDay == 1 {
-                cell.TheTrain.text = ScheduleData.loss_A_BackTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.loss_A_BackTable[indexPath.row]
             } else if chosenDay == 2 {
-                cell.TheTrain.text = ScheduleData.loss_A_Shol_LegTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.loss_A_Shol_LegTable[indexPath.row]
             }  else {
-                cell.TheTrain.text = ScheduleData.loss_A_CarTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.loss_A_CarTable[indexPath.row]
             }
             
             
         }else if chosenTrain == 4 {
             
             if chosenDay == 0 {
-                cell.TheTrain.text = ScheduleData.loss_B_PunchTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.loss_B_PunchTable[indexPath.row]
             } else if chosenDay == 1 {
-                cell.TheTrain.text = ScheduleData.loss_B_BackTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.loss_B_BackTable[indexPath.row]
             } else if chosenDay == 2 {
-                cell.TheTrain.text = ScheduleData.loss_B_Shol_LegTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.loss_B_Shol_LegTable[indexPath.row]
             }  else {
-                cell.TheTrain.text = ScheduleData.loss_B_CarTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.loss_B_CarTable[indexPath.row]
             }
             
         } else if chosenTrain == 5 {
             
             if chosenDay == 0 {
-                cell.TheTrain.text = ScheduleData.super_Chest_BackTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.super_Chest_BackTable[indexPath.row]
             } else if chosenDay == 1 {
-                cell.TheTrain.text = ScheduleData.super_Shol_LegTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.super_Shol_LegTable[indexPath.row]
             } else {
-                cell.TheTrain.text = ScheduleData.super_ArmTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.super_ArmTable[indexPath.row]
             }
         }else {
             
             if chosenDay == 0 {
-                cell.TheTrain.text = ScheduleData.denf_ChestTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.denf_ChestTable[indexPath.row]
             } else if chosenDay == 1 {
-                cell.TheTrain.text = ScheduleData.denf_BackTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.denf_BackTable[indexPath.row]
             } else if chosenDay == 2 {
-                cell.TheTrain.text = ScheduleData.denf_SholTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.denf_SholTable[indexPath.row]
             } else if chosenDay == 3 {
-                cell.TheTrain.text = ScheduleData.denf_ArmTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.denf_ArmTable[indexPath.row]
             } else {
-                cell.TheTrain.text = ScheduleData.denf_LegTable[indexPath.row]
+                cell.trainLabel.text = ScheduleData.denf_LegTable[indexPath.row]
             }
             
             

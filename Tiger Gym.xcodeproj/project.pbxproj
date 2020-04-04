@@ -16,11 +16,11 @@
 		646E1F961FB5008A00012C8C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646E1F941FB5008A00012C8C /* Main.storyboard */; };
 		646E1F981FB5008A00012C8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 646E1F971FB5008A00012C8C /* Assets.xcassets */; };
 		646E1F9B1FB5008A00012C8C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 646E1F991FB5008A00012C8C /* LaunchScreen.storyboard */; };
-		646E1FA31FB505BA00012C8C /* TheMainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646E1FA21FB505BA00012C8C /* TheMainCell.swift */; };
+		646E1FA31FB505BA00012C8C /* MainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646E1FA21FB505BA00012C8C /* MainCell.swift */; };
 		646E1FA51FB50DC300012C8C /* TheDayCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646E1FA41FB50DC300012C8C /* TheDayCellVC.swift */; };
 		646E1FA71FB50DF900012C8C /* DayTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646E1FA61FB50DF900012C8C /* DayTableVC.swift */; };
 		646E1FA91FB5123800012C8C /* TrainListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646E1FA81FB5123800012C8C /* TrainListVC.swift */; };
-		646E1FAB1FB5127000012C8C /* TheTrainCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646E1FAA1FB5127000012C8C /* TheTrainCellVC.swift */; };
+		646E1FAB1FB5127000012C8C /* TrainListCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646E1FAA1FB5127000012C8C /* TrainListCellVC.swift */; };
 		648CC92D1FC738D500F5F58C /* Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 648CC92C1FC738D500F5F58C /* Alarm.mp3 */; };
 		E21E5A672438CBC100DF6BAB /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21E5A662438CBC100DF6BAB /* ScheduleData.swift */; };
 /* End PBXBuildFile section */
@@ -37,11 +37,11 @@
 		646E1F971FB5008A00012C8C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		646E1F9A1FB5008A00012C8C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		646E1F9C1FB5008A00012C8C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		646E1FA21FB505BA00012C8C /* TheMainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheMainCell.swift; sourceTree = "<group>"; };
+		646E1FA21FB505BA00012C8C /* MainCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCell.swift; sourceTree = "<group>"; };
 		646E1FA41FB50DC300012C8C /* TheDayCellVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheDayCellVC.swift; sourceTree = "<group>"; };
 		646E1FA61FB50DF900012C8C /* DayTableVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DayTableVC.swift; sourceTree = "<group>"; };
 		646E1FA81FB5123800012C8C /* TrainListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainListVC.swift; sourceTree = "<group>"; };
-		646E1FAA1FB5127000012C8C /* TheTrainCellVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheTrainCellVC.swift; sourceTree = "<group>"; };
+		646E1FAA1FB5127000012C8C /* TrainListCellVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainListCellVC.swift; sourceTree = "<group>"; };
 		648CC92C1FC738D500F5F58C /* Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alarm.mp3; path = ../Alarm.mp3; sourceTree = "<group>"; };
 		E21E5A662438CBC100DF6BAB /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -112,8 +112,8 @@
 		E20F2E43234D48AA00DE63C1 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
-				646E1FA21FB505BA00012C8C /* TheMainCell.swift */,
-				646E1FAA1FB5127000012C8C /* TheTrainCellVC.swift */,
+				646E1FA21FB505BA00012C8C /* MainCell.swift */,
+				646E1FAA1FB5127000012C8C /* TrainListCellVC.swift */,
 				646E1FA41FB50DC300012C8C /* TheDayCellVC.swift */,
 			);
 			name = Cells;
@@ -216,12 +216,12 @@
 				6424F9081FB66E3900028D11 /* TrainVC.swift in Sources */,
 				646E1F931FB5008A00012C8C /* MainVC.swift in Sources */,
 				646E1FA91FB5123800012C8C /* TrainListVC.swift in Sources */,
-				646E1FAB1FB5127000012C8C /* TheTrainCellVC.swift in Sources */,
+				646E1FAB1FB5127000012C8C /* TrainListCellVC.swift in Sources */,
 				646E1FA71FB50DF900012C8C /* DayTableVC.swift in Sources */,
 				E21E5A672438CBC100DF6BAB /* ScheduleData.swift in Sources */,
 				646E1FA51FB50DC300012C8C /* TheDayCellVC.swift in Sources */,
 				646E1F911FB5008A00012C8C /* AppDelegate.swift in Sources */,
-				646E1FA31FB505BA00012C8C /* TheMainCell.swift in Sources */,
+				646E1FA31FB505BA00012C8C /* MainCell.swift in Sources */,
 				641D70831FD74C3E00CFF975 /* ToneVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -8,9 +8,9 @@
 
 import UIKit
 
-class TheTrainCellVC: UITableViewCell {
+class TrainListCellVC: UITableViewCell {
 
-    @IBOutlet weak var TheTrain: UILabel!
+    @IBOutlet weak var trainLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

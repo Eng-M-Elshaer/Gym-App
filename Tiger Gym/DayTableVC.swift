@@ -54,20 +54,20 @@ extension DayTableVC : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = dayTableView.dequeueReusableCell(withIdentifier: "TheDayCell") as! TheDayCellVC
+        let cell = dayTableView.dequeueReusableCell(withIdentifier: "TheDayCell") as! DayCellVC
         let index = indexPath.row
         
         switch myChose {
         case 0:
-            cell.TheDay.text = ScheduleData.genralDay[index]
+            cell.dayLabel.text = ScheduleData.genralDay[index]
         case 1 ... 2:
-            cell.TheDay.text = ScheduleData.trainDay[index]
+            cell.dayLabel.text = ScheduleData.trainDay[index]
         case 3 ... 4:
-            cell.TheDay.text = ScheduleData.lossTrainDay[index]
+            cell.dayLabel.text = ScheduleData.lossTrainDay[index]
         case 5:
-            cell.TheDay.text = ScheduleData.superTrainDay[index]
+            cell.dayLabel.text = ScheduleData.superTrainDay[index]
         default:
-            cell.TheDay.text = ScheduleData.trainDay[index]
+            cell.dayLabel.text = ScheduleData.trainDay[index]
         }
         
         

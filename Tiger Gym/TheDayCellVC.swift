@@ -8,10 +8,10 @@
 
 import UIKit
 
-class TheDayCellVC: UITableViewCell {
+class DayCellVC: UITableViewCell {
 
     
-    @IBOutlet weak var TheDay: UILabel!
+    @IBOutlet weak var dayLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()

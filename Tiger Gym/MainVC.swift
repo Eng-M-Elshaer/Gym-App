@@ -36,9 +36,9 @@ extension MainVC : UITableViewDataSource {
        
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
            
-           let cell = mainTableView.dequeueReusableCell(withIdentifier: "TheCell") as! TheMainCell
+           let cell = mainTableView.dequeueReusableCell(withIdentifier: "TheCell") as! MainCell
            
-           cell.TheMainType.text = ScheduleData.mainTrainType[indexPath.row]
+           cell.mainTypeLabel.text = ScheduleData.mainTrainType[indexPath.row]
            
            return cell
     }
