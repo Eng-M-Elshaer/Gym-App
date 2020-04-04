@@ -47,7 +47,7 @@ extension DayTableVC : UITableViewDataSource {
         case 5:
             return ScheduleData.superTrainDay.count
         default:
-            return 0
+            return ScheduleData.trainDay.count
         }
         
     }
