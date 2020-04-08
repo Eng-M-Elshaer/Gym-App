@@ -18,8 +18,18 @@ class ToneVC: UIViewController{
     var player = AVAudioPlayer()
     var playing = false
     
-    private func play (toneName:String){
+    override func viewDidDisappear(_ animated: Bool) {
         
+        if playing == true {player.stop()}
+        
+    }
+
+    override func viewDidLoad() {
+        
+        super.viewDidLoad()
+    }
+    
+    private func play (toneName:String){
         
         let TheAudioPath = Bundle.main.path(forResource: toneName, ofType: "mp3")
         
@@ -37,15 +47,10 @@ class ToneVC: UIViewController{
         
     }
     
-    override func viewDidDisappear(_ animated: Bool) {
+    private func setToneName (toneName:String){
         
-        if playing == true {player.stop()}
+        UserDefaults.standard.set(toneName, forKey: "Tone")
         
-    }
-
-    override func viewDidLoad() {
-        
-        super.viewDidLoad()
     }
 
 
@@ -76,6 +81,7 @@ extension ToneVC : UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
         ScheduleData.toneName = tonesName[indexPath.row]
+        setToneName(toneName: tonesName[indexPath.row])
         
         if playing == false {
             

@@ -32,6 +32,7 @@ class TrainVC: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        getToneName()
         setTheTrain()
         
     }
@@ -1529,6 +1530,21 @@ class TrainVC: UIViewController {
         counter = theRealTime - 1
     }
     
+    private func getToneName () -> String {
+        
+        return UserDefaults.standard.value(forKey: "Tone") as? String ?? ""
+        
+    }
+    
+    private func checkThenPlay (){
+        let tone = getToneName()
+        if tone != "" {
+            playSound(TheToneName: tone)
+        } else {
+            playSound(TheToneName: ScheduleData.toneName)
+        }
+    }
+    
     @objc func timerAction(){
         
         time -= 1
@@ -1539,7 +1555,7 @@ class TrainVC: UIViewController {
             theTimer.invalidate()
             trainCountLabel.text = "\(theRealTime) Min"
             startLabel.isHidden = false
-            playSound(TheToneName: ScheduleData.toneName)
+            checkThenPlay()
             showAlert()
             
         } else if time == 0 {
