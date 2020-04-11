@@ -64,7 +64,7 @@ extension ToneVC : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = toneTableView.dequeueReusableCell(withIdentifier: "ToneCell")
+        let cell = toneTableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.toneCell.identifier)
         
         cell!.textLabel!.text = tonesName[indexPath.row]
         

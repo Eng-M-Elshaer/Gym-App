@@ -32,7 +32,6 @@ class TrainVC: UIViewController {
     override func viewDidLoad() {
         
         super.viewDidLoad()
-        getToneName()
         setTheTrain()
         
     }

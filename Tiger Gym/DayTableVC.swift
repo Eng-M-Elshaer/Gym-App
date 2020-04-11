@@ -20,7 +20,7 @@ class DayTableVC: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
       
-        if segue.identifier == "DayToTrain"{
+        if segue.identifier == R.segue.dayTableVC.dayToTrain.identifier {
         
             let selectedRow = dayTableView.indexPathForSelectedRow?.row
             let type = segue.destination as! TrainListVC
@@ -54,7 +54,7 @@ extension DayTableVC : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = dayTableView.dequeueReusableCell(withIdentifier: "TheDayCell") as! DayCellVC
+        let cell = dayTableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.theDayCell.identifier) as! DayCellVC
         let index = indexPath.row
         
         switch myChose {

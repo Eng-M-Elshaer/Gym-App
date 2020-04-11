@@ -147,8 +147,7 @@
 		E267B4CF23EF485D00835BAD /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				646E1F991FB5008A00012C8C /* LaunchScreen.storyboard */,
-				646E1F941FB5008A00012C8C /* Main.storyboard */,
+				E29FD14E24421A3F002DA24C /* Storyboard */,
 				E20F2E43234D48AA00DE63C1 /* Cells */,
 			);
 			name = Views;
@@ -161,6 +160,15 @@
 				E29FD14B244219BB002DA24C /* R.generated.swift */,
 			);
 			name = Resources;
+			sourceTree = "<group>";
+		};
+		E29FD14E24421A3F002DA24C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				646E1F991FB5008A00012C8C /* LaunchScreen.storyboard */,
+				646E1F941FB5008A00012C8C /* Main.storyboard */,
+			);
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 		F5595A957AB0DF1155943B32 /* Pods */ = {

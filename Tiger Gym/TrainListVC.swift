@@ -22,7 +22,7 @@ class TrainListVC: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         
-        if segue.identifier == "TrainToImage"{
+        if segue.identifier == R.segue.trainListVC.trainToImage.identifier {
             let selectedRow = trainTableView.indexPathForSelectedRow?.row
             let type = segue.destination as! TrainVC
             type.myChose = chosenTrain
@@ -130,7 +130,7 @@ extension TrainListVC : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
-        let cell = trainTableView.dequeueReusableCell(withIdentifier: "TheTrainCell") as! TrainListCellVC
+        let cell = trainTableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.theTrainCell.identifier ) as! TrainListCellVC
         cell.configureCell(index: indexPath.row, chosenTrain: chosenTrain, chosenDay: chosenDay)
         return cell
     }

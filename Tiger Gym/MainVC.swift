@@ -19,7 +19,7 @@ class MainVC: UIViewController {
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
            
-           if segue.identifier == "TypeToDay" {
+           if segue.identifier == R.segue.mainVC.typeToDay.identifier {
                let selectedRow = mainTableView.indexPathForSelectedRow?.row
                let type = segue.destination as! DayTableVC
                type.myChose = selectedRow!
@@ -36,7 +36,7 @@ extension MainVC : UITableViewDataSource {
        
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
            
-           let cell = mainTableView.dequeueReusableCell(withIdentifier: "TheCell") as! MainCell
+           let cell = mainTableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.theCell.identifier) as! MainCell
            cell.configureCell(cellData: ScheduleData.mainTrainType[indexPath.row])
 
            return cell

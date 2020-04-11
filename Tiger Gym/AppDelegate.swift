@@ -13,18 +13,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-    
+    private func setUINavigationBarUI () {
+        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont(name: "MarkerFelt-Wide", size: 17)!], for: .normal)
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-        UINavigationBar.appearance().prefersLargeTitles = true
-        UINavigationBar.appearance().largeTitleTextAttributes =
-            [NSAttributedStringKey.foregroundColor: UIColor.orange,
-             NSAttributedStringKey.font: UIFont(name: "MarkerFelt-Wide", size: 24)!]
-        UINavigationBar.appearance().titleTextAttributes =
-        [NSAttributedStringKey.foregroundColor: UIColor.orange,
-         NSAttributedStringKey.font: UIFont(name: "MarkerFelt-Wide", size: 21)!]
-        UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont(name: "MarkerFelt-Wide", size: 17)!], for: .normal)
+        setUINavigationBarUI()
         return true
     }
 
