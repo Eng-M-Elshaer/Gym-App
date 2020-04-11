@@ -22,10 +22,13 @@
 		646E1FA91FB5123800012C8C /* TrainListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646E1FA81FB5123800012C8C /* TrainListVC.swift */; };
 		646E1FAB1FB5127000012C8C /* TrainListCellVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 646E1FAA1FB5127000012C8C /* TrainListCellVC.swift */; };
 		648CC92D1FC738D500F5F58C /* Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 648CC92C1FC738D500F5F58C /* Alarm.mp3 */; };
+		A9897C6808FB448349A1A46F /* Pods_Tiger_Gym.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4B68694BA725AFD6CB55F0 /* Pods_Tiger_Gym.framework */; };
 		E21E5A672438CBC100DF6BAB /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21E5A662438CBC100DF6BAB /* ScheduleData.swift */; };
+		E29FD14C244219BB002DA24C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29FD14B244219BB002DA24C /* R.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F4B68694BA725AFD6CB55F0 /* Pods_Tiger_Gym.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tiger_Gym.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		641D70801FD7406A00CFF975 /* Ascending.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Ascending.mp3; path = ../Ascending.mp3; sourceTree = "<group>"; };
 		641D70821FD74C3E00CFF975 /* ToneVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToneVC.swift; sourceTree = "<group>"; };
 		6424F9071FB66E3900028D11 /* TrainVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainVC.swift; sourceTree = "<group>"; };
@@ -43,7 +46,10 @@
 		646E1FA81FB5123800012C8C /* TrainListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainListVC.swift; sourceTree = "<group>"; };
 		646E1FAA1FB5127000012C8C /* TrainListCellVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrainListCellVC.swift; sourceTree = "<group>"; };
 		648CC92C1FC738D500F5F58C /* Alarm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Alarm.mp3; path = ../Alarm.mp3; sourceTree = "<group>"; };
+		7E21816775A24FB35F1DA232 /* Pods-Tiger Gym.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiger Gym.debug.xcconfig"; path = "Target Support Files/Pods-Tiger Gym/Pods-Tiger Gym.debug.xcconfig"; sourceTree = "<group>"; };
+		CDA945D0020A6C4A6F4E5968 /* Pods-Tiger Gym.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiger Gym.release.xcconfig"; path = "Target Support Files/Pods-Tiger Gym/Pods-Tiger Gym.release.xcconfig"; sourceTree = "<group>"; };
 		E21E5A662438CBC100DF6BAB /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
+		E29FD14B244219BB002DA24C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = "Tiger Gym/R.generated.swift"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9897C6808FB448349A1A46F /* Pods_Tiger_Gym.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +79,8 @@
 			children = (
 				646E1F8F1FB5008A00012C8C /* Tiger Gym */,
 				646E1F8E1FB5008A00012C8C /* Products */,
+				F5595A957AB0DF1155943B32 /* Pods */,
+				B257226E1D4FE81107568A49 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,10 +100,18 @@
 				E267B4CF23EF485D00835BAD /* Views */,
 				E20F2E42234D487C00DE63C1 /* Controllers */,
 				641C33491FC72D10003FC772 /* Tones */,
-				646E1F971FB5008A00012C8C /* Assets.xcassets */,
+				E29FD14D244219D6002DA24C /* Resources */,
 				646E1F9C1FB5008A00012C8C /* Info.plist */,
 			);
 			path = "Tiger Gym";
+			sourceTree = "<group>";
+		};
+		B257226E1D4FE81107568A49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F4B68694BA725AFD6CB55F0 /* Pods_Tiger_Gym.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		E20F2E42234D487C00DE63C1 /* Controllers */ = {
@@ -137,6 +154,24 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		E29FD14D244219D6002DA24C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				646E1F971FB5008A00012C8C /* Assets.xcassets */,
+				E29FD14B244219BB002DA24C /* R.generated.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		F5595A957AB0DF1155943B32 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E21816775A24FB35F1DA232 /* Pods-Tiger Gym.debug.xcconfig */,
+				CDA945D0020A6C4A6F4E5968 /* Pods-Tiger Gym.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 646E1F9F1FB5008A00012C8C /* Build configuration list for PBXNativeTarget "Tiger Gym" */;
 			buildPhases = (
+				44F3A1F465B147887F1CCC86 /* [CP] Check Pods Manifest.lock */,
+				E29FD14A2442192F002DA24C /* ShellScript */,
 				646E1F891FB5008900012C8C /* Sources */,
 				646E1F8A1FB5008900012C8C /* Frameworks */,
 				646E1F8B1FB5008900012C8C /* Resources */,
+				6B305CEFFFDBBFEA4CFEDC7F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -208,6 +246,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		44F3A1F465B147887F1CCC86 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tiger Gym-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B305CEFFFDBBFEA4CFEDC7F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tiger Gym/Pods-Tiger Gym-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/R.swift.Library/Rswift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Rswift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tiger Gym/Pods-Tiger Gym-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E29FD14A2442192F002DA24C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		646E1F891FB5008900012C8C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -222,6 +322,7 @@
 				646E1FA51FB50DC300012C8C /* TheDayCellVC.swift in Sources */,
 				646E1F911FB5008A00012C8C /* AppDelegate.swift in Sources */,
 				646E1FA31FB505BA00012C8C /* MainCell.swift in Sources */,
+				E29FD14C244219BB002DA24C /* R.generated.swift in Sources */,
 				641D70831FD74C3E00CFF975 /* ToneVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -361,6 +462,7 @@
 		};
 		646E1FA01FB5008A00012C8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E21816775A24FB35F1DA232 /* Pods-Tiger Gym.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D8KGAL2H5J;
@@ -375,6 +477,7 @@
 		};
 		646E1FA11FB5008A00012C8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDA945D0020A6C4A6F4E5968 /* Pods-Tiger Gym.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = D8KGAL2H5J;
