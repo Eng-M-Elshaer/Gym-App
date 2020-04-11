@@ -44,51 +44,51 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train103, numberTwo: ScheduleData.genWeight ,numberThree: "332")
+                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "332")
                     
                 }else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train103, numberTwo: ScheduleData.genWeight ,numberThree: "311")
+                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "311")
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train103, numberTwo: ScheduleData.genWeight ,numberThree: "300")
+                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "300")
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train103, numberTwo: ScheduleData.genWeight ,numberThree: "309")
+                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "309")
                     
                 }else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train103, numberTwo: ScheduleData.genWeight ,numberThree: "368")
+                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "368")
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train103, numberTwo: ScheduleData.genWeight ,numberThree: "416")
+                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "416")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train103, numberTwo: ScheduleData.genWeight ,numberThree: "91")
+                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "91")
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train103, numberTwo: ScheduleData.genWeight ,numberThree: "50")
+                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "50")
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train103, numberTwo: ScheduleData.genWeight ,numberThree: "176")
+                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "176")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train103, numberTwo: ScheduleData.genWeight ,numberThree: "177")
+                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "177")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train103, numberTwo: ScheduleData.empty ,numberThree: "328")
+                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.empty ,numberThree: "328")
                     
                 } else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train103, numberTwo: ScheduleData.empty ,numberThree: "11")
+                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.empty ,numberThree: "11")
                     
                 }
                 
@@ -98,51 +98,51 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train104, numberTwo: ScheduleData.genWeight ,numberThree: "332")
+                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "332")
                     
                 }else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train104, numberTwo: ScheduleData.genWeight ,numberThree: "311")
+                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "311")
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train104, numberTwo: ScheduleData.genWeight ,numberThree: "300")
+                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "300")
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train104, numberTwo: ScheduleData.genWeight ,numberThree: "309")
+                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "309")
                     
                 }else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train104, numberTwo: ScheduleData.genWeight ,numberThree: "368")
+                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "368")
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train104, numberTwo: ScheduleData.genWeight ,numberThree: "416")
+                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "416")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train104, numberTwo: ScheduleData.genWeight ,numberThree: "91")
+                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "91")
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train104, numberTwo: ScheduleData.genWeight ,numberThree: "50")
+                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "50")
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train104, numberTwo: ScheduleData.genWeight ,numberThree: "176")
+                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "176")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train104, numberTwo: ScheduleData.genWeight ,numberThree: "177")
+                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "177")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train104, numberTwo: ScheduleData.empty ,numberThree: "328")
+                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.empty ,numberThree: "328")
                     
                 } else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train104, numberTwo: ScheduleData.empty ,numberThree: "11")
+                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.empty ,numberThree: "11")
                     
                 }
                 
@@ -154,49 +154,49 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "309")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "309")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "300")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "300")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "409")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "409")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "408")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "408")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "299")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "299")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "307")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "307")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "410")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "410")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "19")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "7")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 }
                 
@@ -204,50 +204,50 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "332")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "332")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "412")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "412")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "325")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "325")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "311")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "311")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "331")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "331")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "411")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "411")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "98")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "98")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "328")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "11")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
                     
                 }
                 
@@ -255,104 +255,104 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "368")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "368")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "416")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "416")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "369")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "369")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "401")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "401")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "406")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "406")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "370")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "370")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "361")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "361")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "19")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "7")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 }
             } else if theDay == 3 {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "90")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "90")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "78")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "78")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "82")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "82")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "124")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "124")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "39")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "39")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "40")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "40")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "51")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "51")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "328")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "11")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
                     
                 }
                 
@@ -360,40 +360,40 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "184")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "184")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "190")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "190")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "176")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "176")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "177")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "177")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "199")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "199")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "419")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "419")
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "54")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "54")
                     
                 }
                 
@@ -407,49 +407,49 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "300")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "300")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "408")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "408")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "309")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "309")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "409")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "409")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "299")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "299")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "307")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "307")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "410")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "410")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "19")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "7")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 }
                 
@@ -457,50 +457,50 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "332")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "332")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "329")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "329")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "325")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "325")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "331")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "331")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "411")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "411")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "98")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "98")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "328")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "11")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
                     
                 }
                 
@@ -508,104 +508,104 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "368")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "368")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "369")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "369")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "416")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "416")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "401")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "401")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "406")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "406")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "361")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "361")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "19")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "7")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 }
             } else if theDay == 3 {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "42")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "42")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "61")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "61")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "51")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "51")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "410")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "410")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "82")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "82")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "52")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "52")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "90")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "90")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "124")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "124")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "328")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "11")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "11")
                     
                 }
                 
@@ -613,44 +613,44 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "184")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "184")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "190")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "190")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "205")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "205")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "176")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "176")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "177")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "177")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "199")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "199")
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "419")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "419")
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.bulk_A, numberTwo: ScheduleData.higher, numberThree: "54")
+                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "54")
                     
                 }
             }
@@ -662,57 +662,57 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "414")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "413")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "309")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "309")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "300")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "300")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "307")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "307")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "1")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "42")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "42")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "410")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "410")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "170")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "19")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
                     
                 } else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "7")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 }
                 
@@ -720,58 +720,58 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "414")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "413")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "332")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "332")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "311")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "311")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "411")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "411")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "90")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "90")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "52")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "52")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "124")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "124")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "170")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "328")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
                     
                 }else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "11")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
                     
                 }
                 
@@ -779,88 +779,88 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "414")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "413")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "368")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "368")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "416")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "416")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "406")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "406")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "184")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "184")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "176")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "176")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "177")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "177")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "419")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "419")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "170")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
                     
                 } else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "19")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
                     
                 } else if myTrain == 12 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "7")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 }
             } else if theDay == 3 {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min20, numberTwo: ScheduleData.empty, numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min20, numberTwo: ScheduleData.shared.empty, numberThree: "414")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min20, numberTwo: ScheduleData.empty, numberThree: "170")
+                    setTrainInfo(numberOne: ScheduleData.shared.min20, numberTwo: ScheduleData.shared.empty, numberThree: "170")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "328")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "11")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
                     
                     
                 }
@@ -872,57 +872,57 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "414")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "413")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "409")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "409")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "408")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "408")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "307")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "307")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "1")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "42")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "42")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "51")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "51")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "170")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "19")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
                     
                 } else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "7")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 }
                 
@@ -930,58 +930,58 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "414")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "413")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "332")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "332")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "325")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "325")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "1")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "90")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "90")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "78")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "78")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "98")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "98")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "170")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "328")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
                     
                 }else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "11")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
                     
                 }
                 
@@ -989,88 +989,88 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "414")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "413")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "369")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "369")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "401")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "401")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "406")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "406")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "205")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "205")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "176")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "176")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "177")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "177")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.theLoss, numberThree: "419")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "419")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "170")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
                     
                 } else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "19")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
                     
                 } else if myTrain == 12 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "7")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 }
             } else if theDay == 3 {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min20, numberTwo: ScheduleData.empty, numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min20, numberTwo: ScheduleData.shared.empty, numberThree: "414")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min20, numberTwo: ScheduleData.empty, numberThree: "170")
+                    setTrainInfo(numberOne: ScheduleData.shared.min20, numberTwo: ScheduleData.shared.empty, numberThree: "170")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "328")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "11")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
                     
                     
                 }
@@ -1082,107 +1082,107 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "309")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "309")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "332")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "332")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "300")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "300")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "311")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "311")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "307")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "307")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "411")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "411")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "299")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "299")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "331")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "331")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "19")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "7")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 }
             } else if theDay == 1 {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "368")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "368")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "176")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "176")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "416")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "416")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "177")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "177")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "406")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "406")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "199")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "199")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "361")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "361")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "419")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "419")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "328")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "11")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
                     
                 }
                 
@@ -1190,54 +1190,54 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "51")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "51")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "97")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "97")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "410")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "410")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "82")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "82")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "40")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "40")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "124")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "124")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "415")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "415")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train8, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "19")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "7")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 }
             }
@@ -1247,53 +1247,53 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "417")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "417")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "170")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "19")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "7")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 }
                 
@@ -1301,53 +1301,53 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "332")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "332")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "325")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "325")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "311")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "311")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "411")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "411")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "415")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "415")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "170")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "328")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "11")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
                     
                 }
                 
@@ -1356,53 +1356,53 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "369")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "369")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "406")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "406")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "361")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "361")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "62")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "62")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "170")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "19")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "19")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "7")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 }
                 
@@ -1410,106 +1410,106 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "82")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "82")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "42")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "42")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "119")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "119")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "1")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "170")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "328")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.empty, numberThree: "11")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
                     
                 }
             } else if theDay == 4 {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty ,numberThree: "413")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "184")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "184")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "205")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "205")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "176")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "176")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "177")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "177")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "199")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "199")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.loss, numberTwo: ScheduleData.higher, numberThree: "419")
+                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "419")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "414")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min15, numberTwo: ScheduleData.empty, numberThree: "170")
+                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.min5, numberTwo: ScheduleData.empty, numberThree: "19")
+                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.train15, numberTwo: ScheduleData.higher, numberThree: "7")
+                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 } } } }
     
@@ -1520,11 +1520,11 @@ class TrainVC: UIViewController {
         trainWeightLabel.text = numberTwo
         trainImageView.image = UIImage(named : numberThree)
         
-        if numberOne == ScheduleData.train103 || numberOne == ScheduleData.train104  || numberOne == ScheduleData.train15 || numberOne == ScheduleData.loss || numberOne == ScheduleData.bulk_A  || numberOne == ScheduleData.train8
+        if numberOne == ScheduleData.shared.train103 || numberOne == ScheduleData.shared.train104  || numberOne == ScheduleData.shared.train15 || numberOne == ScheduleData.shared.loss || numberOne == ScheduleData.shared.bulk_A  || numberOne == ScheduleData.shared.train8
         {
             startLabel.isHidden = true
         }
-        if numberOne == ScheduleData.min5 {theRealTime = 5 }else if numberOne == ScheduleData.min15 {theRealTime = 15 }else {theRealTime = 20}
+        if numberOne == ScheduleData.shared.min5 {theRealTime = 5 }else if numberOne == ScheduleData.shared.min15 {theRealTime = 15 }else {theRealTime = 20}
         
         counter = theRealTime - 1
     }
@@ -1540,7 +1540,7 @@ class TrainVC: UIViewController {
         if tone != "" {
             playSound(TheToneName: tone)
         } else {
-            playSound(TheToneName: ScheduleData.toneName)
+            playSound(TheToneName: ScheduleData.shared.toneName)
         }
     }
     

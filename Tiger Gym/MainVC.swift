@@ -31,13 +31,13 @@ extension MainVC : UITableViewDataSource {
        
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
            
-           return ScheduleData.mainTrainType.count
+           return ScheduleData.shared.mainTrainType.count
     }
        
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
            
            let cell = mainTableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.theCell.identifier) as! MainCell
-           cell.configureCell(cellData: ScheduleData.mainTrainType[indexPath.row])
+           cell.configureCell(cellData: ScheduleData.shared.mainTrainType[indexPath.row])
 
            return cell
     }

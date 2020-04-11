@@ -21,7 +21,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="756"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="64" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AWP-oy-ooW">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="64" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="AWP-oy-ooW">
                                 <rect key="frame" x="4" y="0.0" width="406" height="722"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="separatorColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -90,7 +90,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="756"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8UO-5k-ryJ">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="8UO-5k-ryJ">
                                 <rect key="frame" x="4" y="0.0" width="406" height="722"/>
                                 <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <color key="separatorColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -158,7 +158,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="756"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Gdv-1z-rvo">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Gdv-1z-rvo">
                                 <rect key="frame" x="4" y="0.0" width="406" height="722"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="separatorColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -267,7 +267,6 @@
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="5Yq-gA-TMy" secondAttribute="trailing" id="05X-MN-fak"/>
                             <constraint firstItem="yic-o0-MDs" firstAttribute="top" secondItem="5Yq-gA-TMy" secondAttribute="bottom" constant="19" id="4Ej-FI-iVl"/>
-                            <constraint firstItem="fvy-WM-bV2" firstAttribute="top" secondItem="1Tr-pf-8BL" secondAttribute="bottom" constant="104" id="4LE-ih-SSe"/>
                             <constraint firstAttribute="leadingMargin" secondItem="5ix-M6-uTe" secondAttribute="leading" id="Bst-Y7-he9"/>
                             <constraint firstItem="5Yq-gA-TMy" firstAttribute="top" secondItem="1Tr-pf-8BL" secondAttribute="bottom" constant="18" id="Nm5-T2-KP7"/>
                             <constraint firstItem="1Tr-pf-8BL" firstAttribute="top" secondItem="TBL-Nl-Klw" secondAttribute="bottom" constant="16" id="PV0-At-6gz"/>
@@ -275,6 +274,7 @@
                             <constraint firstItem="fvy-WM-bV2" firstAttribute="centerX" secondItem="FR4-h4-2ac" secondAttribute="centerX" id="QrP-5l-WvC"/>
                             <constraint firstItem="tAM-Uv-xW2" firstAttribute="top" secondItem="1Tr-pf-8BL" secondAttribute="bottom" constant="180" id="SSf-zW-X9H"/>
                             <constraint firstAttribute="leadingMargin" secondItem="1Tr-pf-8BL" secondAttribute="leading" id="Utn-HX-0NZ"/>
+                            <constraint firstItem="fvy-WM-bV2" firstAttribute="top" secondItem="iFP-0r-ym9" secondAttribute="bottom" constant="22.5" id="WCB-bT-p6W"/>
                             <constraint firstItem="5ix-M6-uTe" firstAttribute="top" secondItem="1Tr-pf-8BL" secondAttribute="bottom" constant="18" id="azD-bG-mAp"/>
                             <constraint firstAttribute="trailingMargin" secondItem="1Tr-pf-8BL" secondAttribute="trailing" id="dF8-7V-sdG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="yic-o0-MDs" secondAttribute="trailing" id="gXn-gf-3UV"/>
@@ -313,7 +313,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="756"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" separatorStyle="singleLineEtched" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xer-Qk-syf">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" delaysContentTouches="NO" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Xer-Qk-syf">
                                 <rect key="frame" x="4" y="0.0" width="406" height="722"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <color key="separatorColor" red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

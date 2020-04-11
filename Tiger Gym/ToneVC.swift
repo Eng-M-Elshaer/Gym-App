@@ -80,18 +80,18 @@ extension ToneVC : UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        ScheduleData.toneName = tonesName[indexPath.row]
+        ScheduleData.shared.toneName = tonesName[indexPath.row]
         setToneName(toneName: tonesName[indexPath.row])
         
         if playing == false {
             
-            play(toneName: ScheduleData.toneName)
+            play(toneName: ScheduleData.shared.toneName)
             playing = true
             
         } else if playing == true {
             
             player.stop()
-            play(toneName: ScheduleData.toneName)
+            play(toneName: ScheduleData.shared.toneName)
             playing = false
             
         }

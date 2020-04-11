@@ -39,15 +39,15 @@ extension DayTableVC : UITableViewDataSource {
         
         switch myChose {
         case 0:
-            return ScheduleData.genralDay.count
+            return ScheduleData.shared.genralDay.count
         case 1 ... 2:
-            return ScheduleData.trainDay.count
+            return ScheduleData.shared.trainDay.count
         case 3 ... 4:
-            return ScheduleData.lossTrainDay.count
+            return ScheduleData.shared.lossTrainDay.count
         case 5:
-            return ScheduleData.superTrainDay.count
+            return ScheduleData.shared.superTrainDay.count
         default:
-            return ScheduleData.trainDay.count
+            return ScheduleData.shared.trainDay.count
         }
         
     }
@@ -59,15 +59,15 @@ extension DayTableVC : UITableViewDataSource {
         
         switch myChose {
         case 0:
-            cell.configureCell(cellData: ScheduleData.genralDay[index])
+            cell.configureCell(cellData: ScheduleData.shared.genralDay[index])
         case 1 ... 2:
-            cell.configureCell(cellData: ScheduleData.trainDay[index])
+            cell.configureCell(cellData: ScheduleData.shared.trainDay[index])
         case 3 ... 4:
-            cell.configureCell(cellData: ScheduleData.lossTrainDay[index])
+            cell.configureCell(cellData: ScheduleData.shared.lossTrainDay[index])
         case 5:
-            cell.configureCell(cellData: ScheduleData.superTrainDay[index])
+            cell.configureCell(cellData: ScheduleData.shared.superTrainDay[index])
         default:
-            cell.configureCell(cellData: ScheduleData.trainDay[index])
+            cell.configureCell(cellData: ScheduleData.shared.trainDay[index])
         }
         
         return cell
