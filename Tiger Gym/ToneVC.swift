@@ -14,7 +14,7 @@ class ToneVC: UIViewController{
 
     @IBOutlet weak var toneTableView: UITableView!
     
-    let tonesName = ["Alarm","Ascending","Danger"]
+    let tonesName = [R.file.alarmMp3.name,R.file.ascendingMp3.name,R.file.dangerMp3.name]
     var player = AVAudioPlayer()
     var playing = false
     
@@ -46,13 +46,6 @@ class ToneVC: UIViewController{
         
         
     }
-    
-    private func setToneName (toneName:String){
-        
-        UserDefaults.standard.set(toneName, forKey: "Tone")
-        
-    }
-
 
 }
 
@@ -80,18 +73,17 @@ extension ToneVC : UITableViewDelegate {
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         
-        ScheduleData.shared.toneName = tonesName[indexPath.row]
-        setToneName(toneName: tonesName[indexPath.row])
+        UserDefaultManger.shared.setToneName(toneName: tonesName[indexPath.row])
         
         if playing == false {
             
-            play(toneName: ScheduleData.shared.toneName)
+            play(toneName: tonesName[indexPath.row])
             playing = true
             
         } else if playing == true {
             
             player.stop()
-            play(toneName: ScheduleData.shared.toneName)
+            play(toneName: tonesName[indexPath.row])
             playing = false
             
         }

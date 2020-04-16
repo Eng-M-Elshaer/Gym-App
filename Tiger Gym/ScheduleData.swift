@@ -12,16 +12,16 @@ struct ScheduleData {
     
     static var shared = ScheduleData()
     
-    // Main VC
+    //MARK:- Main VC
      let mainTrainType = ["Genral","Bulk (A)","Bulk (B)","Loss (A)","Loss (B)","Superset","Definition"]
     
-    // Day Table VC
+    //MARK:-  Day Table VC
      let trainDay = ["Chest","Back","Shoulder","Arm","Leg"]
      let lossTrainDay = ["Chest & Try","Back & Bai","Shoulder & Leg","Cardio"]
      let superTrainDay = ["Chest & Back", "Shoulder & Leg", "Arm"]
      let genralDay = ["First Day","Second & Third Day"]
     
-    // The Train VC
+    //MARK:-  The Train VC
     
     // Genral Table
      let genralTable = ["سحب عالي امامي","سحب جالس ضيق","صدر عالي","صدر فلات","تجميع جانبي","تجميع امامي","باي","تراي","رجل امامي","رجل خلفي","قطنيه","بطن امامي"]
@@ -91,25 +91,6 @@ struct ScheduleData {
     
      let denf_LegTable = ["إطالات متحركه","سكوات واسع","طعن","رجل امامي","رجل خلفي","سمانه واقف","سمانه جالس","مشايه","عجله","تويست","بطن جانبي"]
     
-    
-    // Train VC
-    
-     let bulk_A = "12 10 8 8"
-     let loss = "15 20 25"
-     let higher = "Lower - Higher"
-     let theLoss = "Higher - Lower"
-     let genWeight = "Same Lower"
-     let min5 = "5 Min"
-     let min15 = "15 Min"
-     let min20 = "20 Min"
-     let empty = "-"
-     let train15 = "15 15 15"
-     let train8 = "8 8 8"
-     let train103 = "10 10 10"
-     let train104 = "10 10 10 10"
-    
-    // Tone VC
-    
-     var toneName = "Ascending"
-
 }
+
+

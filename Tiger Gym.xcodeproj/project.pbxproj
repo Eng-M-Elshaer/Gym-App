@@ -24,7 +24,9 @@
 		648CC92D1FC738D500F5F58C /* Alarm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 648CC92C1FC738D500F5F58C /* Alarm.mp3 */; };
 		A9897C6808FB448349A1A46F /* Pods_Tiger_Gym.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F4B68694BA725AFD6CB55F0 /* Pods_Tiger_Gym.framework */; };
 		E21E5A672438CBC100DF6BAB /* ScheduleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = E21E5A662438CBC100DF6BAB /* ScheduleData.swift */; };
-		E29FD14C244219BB002DA24C /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E29FD14B244219BB002DA24C /* R.generated.swift */; };
+		E23C30C62445F3E1000B41C0 /* UserDefaultManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23C30C52445F3E1000B41C0 /* UserDefaultManger.swift */; };
+		E23C30CC2445FDFD000B41C0 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23C30CB2445FDFD000B41C0 /* R.generated.swift */; };
+		E23C30D024466CC7000B41C0 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = E23C30CF24466CC7000B41C0 /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,7 +51,9 @@
 		7E21816775A24FB35F1DA232 /* Pods-Tiger Gym.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiger Gym.debug.xcconfig"; path = "Target Support Files/Pods-Tiger Gym/Pods-Tiger Gym.debug.xcconfig"; sourceTree = "<group>"; };
 		CDA945D0020A6C4A6F4E5968 /* Pods-Tiger Gym.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tiger Gym.release.xcconfig"; path = "Target Support Files/Pods-Tiger Gym/Pods-Tiger Gym.release.xcconfig"; sourceTree = "<group>"; };
 		E21E5A662438CBC100DF6BAB /* ScheduleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleData.swift; sourceTree = "<group>"; };
-		E29FD14B244219BB002DA24C /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = R.generated.swift; path = "Tiger Gym/R.generated.swift"; sourceTree = SOURCE_ROOT; };
+		E23C30C52445F3E1000B41C0 /* UserDefaultManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultManger.swift; sourceTree = "<group>"; };
+		E23C30CB2445FDFD000B41C0 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = SOURCE_ROOT; };
+		E23C30CF24466CC7000B41C0 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +144,7 @@
 			isa = PBXGroup;
 			children = (
 				E21E5A662438CBC100DF6BAB /* ScheduleData.swift */,
+				E23C30C52445F3E1000B41C0 /* UserDefaultManger.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -157,7 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				646E1F971FB5008A00012C8C /* Assets.xcassets */,
-				E29FD14B244219BB002DA24C /* R.generated.swift */,
+				E23C30CF24466CC7000B41C0 /* Constants.swift */,
+				E23C30CB2445FDFD000B41C0 /* R.generated.swift */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -328,10 +334,12 @@
 				646E1FA71FB50DF900012C8C /* DayTableVC.swift in Sources */,
 				E21E5A672438CBC100DF6BAB /* ScheduleData.swift in Sources */,
 				646E1FA51FB50DC300012C8C /* TheDayCellVC.swift in Sources */,
+				E23C30D024466CC7000B41C0 /* Constants.swift in Sources */,
 				646E1F911FB5008A00012C8C /* AppDelegate.swift in Sources */,
 				646E1FA31FB505BA00012C8C /* MainCell.swift in Sources */,
-				E29FD14C244219BB002DA24C /* R.generated.swift in Sources */,
+				E23C30C62445F3E1000B41C0 /* UserDefaultManger.swift in Sources */,
 				641D70831FD74C3E00CFF975 /* ToneVC.swift in Sources */,
+				E23C30CC2445FDFD000B41C0 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

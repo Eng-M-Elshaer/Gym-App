@@ -285,41 +285,41 @@ struct _R: Rswift.Validatable {
       typealias InitialController = UIKit.UINavigationController
 
       let bundle = R.hostingBundle
+      let dayTableVC = StoryboardViewControllerResource<DayTableVC>(identifier: "DayTableVC")
+      let mainVC = StoryboardViewControllerResource<MainVC>(identifier: "MainVC")
       let name = "Main"
-      let theDayTableVC = StoryboardViewControllerResource<DayTableVC>(identifier: "TheDayTableVC")
-      let theImageVC = StoryboardViewControllerResource<TrainVC>(identifier: "TheImageVC")
-      let theTrainVC = StoryboardViewControllerResource<TrainListVC>(identifier: "TheTrainVC")
       let toneVC = StoryboardViewControllerResource<ToneVC>(identifier: "ToneVC")
-      let viewController = StoryboardViewControllerResource<MainVC>(identifier: "ViewController")
+      let trainListVC = StoryboardViewControllerResource<TrainListVC>(identifier: "TrainListVC")
+      let trainVC = StoryboardViewControllerResource<TrainVC>(identifier: "TrainVC")
 
-      func theDayTableVC(_: Void = ()) -> DayTableVC? {
-        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: theDayTableVC)
+      func dayTableVC(_: Void = ()) -> DayTableVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: dayTableVC)
       }
 
-      func theImageVC(_: Void = ()) -> TrainVC? {
-        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: theImageVC)
-      }
-
-      func theTrainVC(_: Void = ()) -> TrainListVC? {
-        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: theTrainVC)
+      func mainVC(_: Void = ()) -> MainVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: mainVC)
       }
 
       func toneVC(_: Void = ()) -> ToneVC? {
         return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: toneVC)
       }
 
-      func viewController(_: Void = ()) -> MainVC? {
-        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: viewController)
+      func trainListVC(_: Void = ()) -> TrainListVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: trainListVC)
+      }
+
+      func trainVC(_: Void = ()) -> TrainVC? {
+        return UIKit.UIStoryboard(resource: self).instantiateViewController(withResource: trainVC)
       }
 
       static func validate() throws {
         if #available(iOS 11.0, tvOS 11.0, *) {
         }
-        if _R.storyboard.main().theDayTableVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'theDayTableVC' could not be loaded from storyboard 'Main' as 'DayTableVC'.") }
-        if _R.storyboard.main().theImageVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'theImageVC' could not be loaded from storyboard 'Main' as 'TrainVC'.") }
-        if _R.storyboard.main().theTrainVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'theTrainVC' could not be loaded from storyboard 'Main' as 'TrainListVC'.") }
+        if _R.storyboard.main().dayTableVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'dayTableVC' could not be loaded from storyboard 'Main' as 'DayTableVC'.") }
+        if _R.storyboard.main().mainVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'mainVC' could not be loaded from storyboard 'Main' as 'MainVC'.") }
         if _R.storyboard.main().toneVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'toneVC' could not be loaded from storyboard 'Main' as 'ToneVC'.") }
-        if _R.storyboard.main().viewController() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'viewController' could not be loaded from storyboard 'Main' as 'MainVC'.") }
+        if _R.storyboard.main().trainListVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'trainListVC' could not be loaded from storyboard 'Main' as 'TrainListVC'.") }
+        if _R.storyboard.main().trainVC() == nil { throw Rswift.ValidationError(description:"[R.swift] ViewController with identifier 'trainVC' could not be loaded from storyboard 'Main' as 'TrainVC'.") }
       }
 
       fileprivate init() {}

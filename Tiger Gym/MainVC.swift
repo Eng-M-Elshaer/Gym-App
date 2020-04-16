@@ -14,7 +14,6 @@ class MainVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
@@ -24,13 +23,14 @@ class MainVC: UIViewController {
                let type = segue.destination as! DayTableVC
                type.myChose = selectedRow!
            }
+        
     }
+    
 }
 
 extension MainVC : UITableViewDataSource {
        
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-           
            return ScheduleData.shared.mainTrainType.count
     }
        
@@ -38,7 +38,6 @@ extension MainVC : UITableViewDataSource {
            
            let cell = mainTableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.theCell.identifier) as! MainCell
            cell.configureCell(cellData: ScheduleData.shared.mainTrainType[indexPath.row])
-
            return cell
     }
     

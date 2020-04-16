@@ -19,24 +19,7 @@ class TrainListVC: UIViewController {
         super.viewDidLoad()
     }
     
-    
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
-        if segue.identifier == R.segue.trainListVC.trainToImage.identifier {
-            let selectedRow = trainTableView.indexPathForSelectedRow?.row
-            let type = segue.destination as! TrainVC
-            type.myChose = chosenTrain
-            type.myTrain = selectedRow!
-            type.theDay = chosenDay
-            
-        }
-    }
-    
-}
-
-extension TrainListVC : UITableViewDataSource {
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+    private func rowNumbers(chosenTrain:Int,chosenDay:Int) -> Int{
         
         if chosenTrain == 0 {
             return ScheduleData.shared.genralTable.count
@@ -119,13 +102,30 @@ extension TrainListVC : UITableViewDataSource {
                 return ScheduleData.shared.denf_LegTable.count
             }
             
-            
         }
         
     }
     
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        if segue.identifier == R.segue.trainListVC.trainToImage.identifier {
+            let selectedRow = trainTableView.indexPathForSelectedRow?.row
+            let type = segue.destination as! TrainVC
+            type.myChose = chosenTrain
+            type.myTrain = selectedRow!
+            type.theDay = chosenDay
+            
+        }
+    }
     
+}
+
+extension TrainListVC : UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return rowNumbers(chosenTrain: chosenTrain, chosenDay: chosenDay)
+    }
     
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

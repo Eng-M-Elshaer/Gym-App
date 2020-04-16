@@ -12,7 +12,7 @@
         <!--Your Train-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ViewController" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="MainVC" customModule="Tiger_Gym" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainVC" automaticallyAdjustsScrollViewInsets="NO" id="BYZ-38-t0r" customClass="MainVC" customModule="Tiger_Gym" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -81,7 +81,7 @@
         <!--Day TableVC-->
         <scene sceneID="XhA-aM-8bT">
             <objects>
-                <viewController storyboardIdentifier="TheDayTableVC" automaticallyAdjustsScrollViewInsets="NO" id="ZdM-aL-ASa" customClass="DayTableVC" customModule="Tiger_Gym" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="DayTableVC" automaticallyAdjustsScrollViewInsets="NO" id="ZdM-aL-ASa" customClass="DayTableVC" customModule="Tiger_Gym" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="S5b-4p-oR0"/>
                         <viewControllerLayoutGuide type="bottom" id="4Wz-zv-q6H"/>
@@ -149,7 +149,7 @@
         <!--Train ListVC-->
         <scene sceneID="nmY-J7-ftl">
             <objects>
-                <viewController storyboardIdentifier="TheTrainVC" automaticallyAdjustsScrollViewInsets="NO" id="wcR-6r-hyv" customClass="TrainListVC" customModule="Tiger_Gym" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TrainListVC" automaticallyAdjustsScrollViewInsets="NO" id="wcR-6r-hyv" customClass="TrainListVC" customModule="Tiger_Gym" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tNw-l8-qAh"/>
                         <viewControllerLayoutGuide type="bottom" id="xUQ-f8-VcH"/>
@@ -218,7 +218,7 @@
         <!--TrainVC-->
         <scene sceneID="jxe-WS-zWJ">
             <objects>
-                <viewController storyboardIdentifier="TheImageVC" id="z1p-6D-6wY" customClass="TrainVC" customModule="Tiger_Gym" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TrainVC" id="z1p-6D-6wY" customClass="TrainVC" customModule="Tiger_Gym" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="TBL-Nl-Klw"/>
                         <viewControllerLayoutGuide type="bottom" id="tAM-Uv-xW2"/>
@@ -259,7 +259,7 @@
                                 <fontDescription key="fontDescription" name="MarkerFelt-Thin" family="Marker Felt" pointSize="24"/>
                                 <state key="normal" title="Start"/>
                                 <connections>
-                                    <action selector="Start:" destination="z1p-6D-6wY" eventType="touchUpInside" id="umo-Ly-bzd"/>
+                                    <action selector="startBtnPressed:" destination="z1p-6D-6wY" eventType="touchUpInside" id="umo-Ly-bzd"/>
                                 </connections>
                             </button>
                         </subviews>

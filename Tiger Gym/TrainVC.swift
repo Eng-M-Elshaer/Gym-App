@@ -21,6 +21,7 @@ class TrainVC: UIViewController {
     var myChose = 0
     var myTrain = 0
     var theDay = 0
+    
     var time = 59
     var theRealTime = 0
     var counter = 0
@@ -44,51 +45,51 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "332")
+                    setTrainInfo(trainCount: Constants.shared.train103, trainWeight: Constants.shared.genWeight ,trainImage: "332")
                     
                 }else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "311")
+                    setTrainInfo(trainCount: Constants.shared.train103, trainWeight: Constants.shared.genWeight ,trainImage: "311")
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "300")
+                    setTrainInfo(trainCount: Constants.shared.train103, trainWeight: Constants.shared.genWeight ,trainImage: "300")
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "309")
+                    setTrainInfo(trainCount: Constants.shared.train103, trainWeight: Constants.shared.genWeight ,trainImage: "309")
                     
                 }else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "368")
+                    setTrainInfo(trainCount: Constants.shared.train103, trainWeight: Constants.shared.genWeight ,trainImage: "368")
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "416")
+                    setTrainInfo(trainCount: Constants.shared.train103, trainWeight: Constants.shared.genWeight ,trainImage: "416")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "91")
+                    setTrainInfo(trainCount: Constants.shared.train103, trainWeight: Constants.shared.genWeight ,trainImage: "91")
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "50")
+                    setTrainInfo(trainCount: Constants.shared.train103, trainWeight: Constants.shared.genWeight ,trainImage: "50")
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "176")
+                    setTrainInfo(trainCount: Constants.shared.train103, trainWeight: Constants.shared.genWeight ,trainImage: "176")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.genWeight ,numberThree: "177")
+                    setTrainInfo(trainCount: Constants.shared.train103, trainWeight: Constants.shared.genWeight ,trainImage: "177")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.empty ,numberThree: "328")
+                    setTrainInfo(trainCount: Constants.shared.train103, trainWeight: Constants.shared.empty ,trainImage: "328")
                     
                 } else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train103, numberTwo: ScheduleData.shared.empty ,numberThree: "11")
+                    setTrainInfo(trainCount: Constants.shared.train103, trainWeight: Constants.shared.empty ,trainImage: "11")
                     
                 }
                 
@@ -98,51 +99,51 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "332")
+                    setTrainInfo(trainCount: Constants.shared.train104, trainWeight: Constants.shared.genWeight ,trainImage: "332")
                     
                 }else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "311")
+                    setTrainInfo(trainCount: Constants.shared.train104, trainWeight: Constants.shared.genWeight ,trainImage: "311")
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "300")
+                    setTrainInfo(trainCount: Constants.shared.train104, trainWeight: Constants.shared.genWeight ,trainImage: "300")
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "309")
+                    setTrainInfo(trainCount: Constants.shared.train104, trainWeight: Constants.shared.genWeight ,trainImage: "309")
                     
                 }else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "368")
+                    setTrainInfo(trainCount: Constants.shared.train104, trainWeight: Constants.shared.genWeight ,trainImage: "368")
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "416")
+                    setTrainInfo(trainCount: Constants.shared.train104, trainWeight: Constants.shared.genWeight ,trainImage: "416")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "91")
+                    setTrainInfo(trainCount: Constants.shared.train104, trainWeight: Constants.shared.genWeight ,trainImage: "91")
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "50")
+                    setTrainInfo(trainCount: Constants.shared.train104, trainWeight: Constants.shared.genWeight ,trainImage: "50")
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "176")
+                    setTrainInfo(trainCount: Constants.shared.train104, trainWeight: Constants.shared.genWeight ,trainImage: "176")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.genWeight ,numberThree: "177")
+                    setTrainInfo(trainCount: Constants.shared.train104, trainWeight: Constants.shared.genWeight ,trainImage: "177")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.empty ,numberThree: "328")
+                    setTrainInfo(trainCount: Constants.shared.train104, trainWeight: Constants.shared.empty ,trainImage: "328")
                     
                 } else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train104, numberTwo: ScheduleData.shared.empty ,numberThree: "11")
+                    setTrainInfo(trainCount: Constants.shared.train104, trainWeight: Constants.shared.empty ,trainImage: "11")
                     
                 }
                 
@@ -154,49 +155,49 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "309")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "309")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "300")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "300")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "409")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "409")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "408")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "408")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "299")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "299")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "307")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "307")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "410")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "410")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "19")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "7")
                     
                 }
                 
@@ -204,50 +205,50 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "332")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "332")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "412")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "412")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "325")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "325")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "311")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "311")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "331")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "331")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "411")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "411")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "98")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "98")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "328")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "11")
                     
                 }
                 
@@ -255,104 +256,104 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "368")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "368")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "416")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "416")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "369")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "369")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "401")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "401")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "406")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "406")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "370")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "370")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "361")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "361")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "19")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "7")
                     
                 }
             } else if theDay == 3 {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "90")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "90")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "78")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "78")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "82")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "82")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "124")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "124")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "39")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "39")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "40")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "40")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "51")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "51")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "328")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "11")
                     
                 }
                 
@@ -360,40 +361,40 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "184")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "184")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "190")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "190")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "176")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "176")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "177")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "177")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "199")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "199")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "419")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "419")
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "54")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "54")
                     
                 }
                 
@@ -407,49 +408,49 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "300")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "300")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "408")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "408")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "309")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "309")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "409")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "409")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "299")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "299")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "307")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "307")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "410")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "410")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "19")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "7")
                     
                 }
                 
@@ -457,50 +458,50 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "332")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "332")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "329")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "329")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "325")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "325")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "331")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "331")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "411")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "411")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "98")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "98")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "328")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "11")
                     
                 }
                 
@@ -508,104 +509,104 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "368")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "368")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "369")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "369")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "416")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "416")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "401")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "401")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "406")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "406")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "361")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "361")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "19")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "7")
                     
                 }
             } else if theDay == 3 {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "42")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "42")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "61")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "61")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "51")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "51")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "410")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "410")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "82")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "82")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "52")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "52")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "90")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "90")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "124")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "124")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "328")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "11")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "11")
                     
                 }
                 
@@ -613,44 +614,44 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "184")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "184")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "190")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "190")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "205")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "205")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "176")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "176")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "177")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "177")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "199")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "199")
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "419")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "419")
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.bulk_A, numberTwo: ScheduleData.shared.higher, numberThree: "54")
+                    setTrainInfo(trainCount: Constants.shared.bulk_A, trainWeight: Constants.shared.higher, trainImage: "54")
                     
                 }
             }
@@ -662,57 +663,57 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "414")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "413")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "309")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "309")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "300")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "300")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "307")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "307")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "1")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "42")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "42")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "410")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "410")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "414")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "170")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "19")
                     
                 } else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "7")
                     
                 }
                 
@@ -720,58 +721,58 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "414")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "413")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "332")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "332")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "311")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "311")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "411")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "411")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "90")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "90")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "52")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "52")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "124")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "124")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "414")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "170")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "328")
                     
                 }else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "11")
                     
                 }
                 
@@ -779,88 +780,88 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "414")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "413")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "368")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "368")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "416")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "416")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "406")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "406")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "184")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "184")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "176")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "176")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "177")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "177")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "419")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "419")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "414")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "170")
                     
                 } else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "19")
                     
                 } else if myTrain == 12 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "7")
                     
                 }
             } else if theDay == 3 {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min20, numberTwo: ScheduleData.shared.empty, numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min20, trainWeight: Constants.shared.empty, trainImage: "414")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min20, numberTwo: ScheduleData.shared.empty, numberThree: "170")
+                    setTrainInfo(trainCount: Constants.shared.min20, trainWeight: Constants.shared.empty, trainImage: "170")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "328")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "11")
                     
                     
                 }
@@ -872,57 +873,57 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "414")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "413")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "409")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "409")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "408")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "408")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "307")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "307")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "1")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "42")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "42")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "51")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "51")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "414")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "170")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "19")
                     
                 } else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "7")
                     
                 }
                 
@@ -930,58 +931,58 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "414")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "413")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "332")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "332")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "325")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "325")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "1")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "90")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "90")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "78")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "78")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "98")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "98")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "414")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "170")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "328")
                     
                 }else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "11")
                     
                 }
                 
@@ -989,88 +990,88 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "414")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "413")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "369")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "369")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "401")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "401")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "406")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "406")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "205")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "205")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "176")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "176")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "177")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "177")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.theLoss, numberThree: "419")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.theLoss, trainImage: "419")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "414")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "170")
                     
                 } else if myTrain == 11 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "19")
                     
                 } else if myTrain == 12 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "7")
                     
                 }
             } else if theDay == 3 {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min20, numberTwo: ScheduleData.shared.empty, numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min20, trainWeight: Constants.shared.empty, trainImage: "414")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min20, numberTwo: ScheduleData.shared.empty, numberThree: "170")
+                    setTrainInfo(trainCount: Constants.shared.min20, trainWeight: Constants.shared.empty, trainImage: "170")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "328")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "11")
                     
                     
                 }
@@ -1082,107 +1083,107 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "309")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "309")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "332")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "332")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "300")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "300")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "311")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "311")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "307")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "307")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "411")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "411")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "299")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "299")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "331")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "331")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "19")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "7")
                     
                 }
             } else if theDay == 1 {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "368")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "368")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "176")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "176")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "416")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "416")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "177")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "177")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "406")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "406")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "199")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "199")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "361")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "361")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "419")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "419")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "328")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "11")
                     
                 }
                 
@@ -1190,54 +1191,54 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "51")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "51")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "97")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "97")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "410")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "410")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "82")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "82")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "40")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "40")
                     
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "124")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "124")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "415")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "415")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train8, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.train8, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "19")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "7")
                     
                 }
             }
@@ -1247,53 +1248,53 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "417")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "417")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "414")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "170")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "19")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "7")
                     
                 }
                 
@@ -1301,53 +1302,53 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "332")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "332")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "325")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "325")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "311")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "311")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "411")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "411")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "415")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "415")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "414")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "170")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "328")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "11")
                     
                 }
                 
@@ -1356,53 +1357,53 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "369")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "369")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "406")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "406")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "361")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "361")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "62")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "62")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "414")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "170")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "19")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "19")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "7")
                     
                 }
                 
@@ -1410,138 +1411,135 @@ class TrainVC: UIViewController {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "82")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "82")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "42")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "42")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "119")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "119")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "1")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "1")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "414")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "170")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "328")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "328")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.empty, numberThree: "11")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.empty, trainImage: "11")
                     
                 }
             } else if theDay == 4 {
                 
                 if myTrain == 0  {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty ,numberThree: "413")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty ,trainImage: "413")
                     
                 }  else if myTrain == 1 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "184")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "184")
                     
                     
                 } else if myTrain == 2 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "205")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "205")
                     
                     
                 } else if myTrain == 3 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "176")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "176")
                     
                     
                 } else if myTrain == 4 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "177")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "177")
                     
                     
                 } else if myTrain == 5 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "199")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "199")
                     
                 } else if myTrain == 6 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.loss, numberTwo: ScheduleData.shared.higher, numberThree: "419")
+                    setTrainInfo(trainCount: Constants.shared.loss, trainWeight: Constants.shared.higher, trainImage: "419")
                     
                     
                 } else if myTrain == 7 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "414")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "414")
                     
                     
                 } else if myTrain == 8 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min15, numberTwo: ScheduleData.shared.empty, numberThree: "170")
+                    setTrainInfo(trainCount: Constants.shared.min15, trainWeight: Constants.shared.empty, trainImage: "170")
                     
                 } else if myTrain == 9 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.min5, numberTwo: ScheduleData.shared.empty, numberThree: "19")
+                    setTrainInfo(trainCount: Constants.shared.min5, trainWeight: Constants.shared.empty, trainImage: "19")
                     
                 } else if myTrain == 10 {
                     
-                    setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
+                    setTrainInfo(trainCount: Constants.shared.train15, trainWeight: Constants.shared.higher, trainImage: "7")
                     
                 } } } }
     
     
-    private func setTrainInfo(numberOne:String,numberTwo:String,numberThree:String) {
+    private func setTrainInfo(trainCount:String,trainWeight:String,trainImage:String) {
         
-        trainCountLabel.text = numberOne
-        trainWeightLabel.text = numberTwo
-        trainImageView.image = UIImage(named : numberThree)
+        trainCountLabel.text = trainCount
+        trainWeightLabel.text = trainWeight
+        trainImageView.image = UIImage(named : trainImage)
         
-        if numberOne == ScheduleData.shared.train103 || numberOne == ScheduleData.shared.train104  || numberOne == ScheduleData.shared.train15 || numberOne == ScheduleData.shared.loss || numberOne == ScheduleData.shared.bulk_A  || numberOne == ScheduleData.shared.train8
-        {
+        switch trainCount {
+        case Constants.shared.train103,Constants.shared.train104,Constants.shared.train15,
+             Constants.shared.loss,Constants.shared.bulk_A,Constants.shared.train8:
             startLabel.isHidden = true
+        default:
+            startLabel.isHidden = false
+
         }
-        if numberOne == ScheduleData.shared.min5 {theRealTime = 5 }else if numberOne == ScheduleData.shared.min15 {theRealTime = 15 }else {theRealTime = 20}
+        
+        switch trainCount {
+        case Constants.shared.min5:
+            theRealTime = 5
+        case Constants.shared.min15:
+            theRealTime = 15
+        default:
+            theRealTime = 20
+        }
         
         counter = theRealTime - 1
-    }
-    
-    private func getToneName () -> String {
-        
-        return UserDefaults.standard.value(forKey: "Tone") as? String ?? ""
-        
-    }
-    
-    private func checkThenPlay (){
-        let tone = getToneName()
-        if tone != "" {
-            playSound(TheToneName: tone)
-        } else {
-            playSound(TheToneName: ScheduleData.shared.toneName)
-        }
     }
     
     @objc func timerAction(){
@@ -1554,7 +1552,8 @@ class TrainVC: UIViewController {
             theTimer.invalidate()
             trainCountLabel.text = "\(theRealTime) Min"
             startLabel.isHidden = false
-            checkThenPlay()
+            let tone = UserDefaultManger.shared.getToneName()
+            playSound(TheToneName: tone)
             showAlert()
             
         } else if time == 0 {
@@ -1568,11 +1567,10 @@ class TrainVC: UIViewController {
     
     private func playSound (TheToneName:String){
         
-        
-        let TheAudioPath = Bundle.main.path(forResource: TheToneName, ofType: "mp3")
+        let audioPath = Bundle.main.path(forResource: TheToneName, ofType: "mp3")
         
         do {
-            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath:TheAudioPath!))
+            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath:audioPath!))
             
         } catch {
             
@@ -1593,10 +1591,11 @@ class TrainVC: UIViewController {
         
     }
     
-    @IBAction func Start(_ sender: Any) {
+    @IBAction func startBtnPressed(_ sender: Any) {
         
         theTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
         startLabel.isHidden = true
+        
     }
     
 }

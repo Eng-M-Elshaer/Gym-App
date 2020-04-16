@@ -16,10 +16,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     private func setUINavigationBarUI () {
         UIBarButtonItem.appearance().setTitleTextAttributes([NSAttributedString.Key.font: UIFont(name: "MarkerFelt-Wide", size: 17)!], for: .normal)
     }
+    
+    private func checkDataInUserDefaults(){
+        if UserDefaultManger.shared.getToneName() == "" {
+            UserDefaultManger.shared.setToneName(toneName: "Ascending")
+        }
+    }
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
         setUINavigationBarUI()
+        checkDataInUserDefaults()
         return true
     }
 

@@ -18,6 +18,21 @@ class DayTableVC: UIViewController {
         super.viewDidLoad()
     }
     
+    private func rowsNumber() -> Int {
+        switch myChose {
+        case 0:
+            return ScheduleData.shared.genralDay.count
+        case 1 ... 2:
+            return ScheduleData.shared.trainDay.count
+        case 3 ... 4:
+            return ScheduleData.shared.lossTrainDay.count
+        case 5:
+            return ScheduleData.shared.superTrainDay.count
+        default:
+            return ScheduleData.shared.trainDay.count
+        }
+    }
+    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
       
         if segue.identifier == R.segue.dayTableVC.dayToTrain.identifier {
@@ -36,20 +51,7 @@ class DayTableVC: UIViewController {
 extension DayTableVC : UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
-        switch myChose {
-        case 0:
-            return ScheduleData.shared.genralDay.count
-        case 1 ... 2:
-            return ScheduleData.shared.trainDay.count
-        case 3 ... 4:
-            return ScheduleData.shared.lossTrainDay.count
-        case 5:
-            return ScheduleData.shared.superTrainDay.count
-        default:
-            return ScheduleData.shared.trainDay.count
-        }
-        
+        return rowsNumber()
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
