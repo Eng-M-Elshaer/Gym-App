@@ -100,10 +100,10 @@
 			isa = PBXGroup;
 			children = (
 				646E1F901FB5008A00012C8C /* AppDelegate.swift */,
+				E23C30C52445F3E1000B41C0 /* UserDefaultManger.swift */,
 				E21E5A682438CBCF00DF6BAB /* Model */,
-				E267B4CF23EF485D00835BAD /* Views */,
-				E20F2E42234D487C00DE63C1 /* Controllers */,
-				641C33491FC72D10003FC772 /* Tones */,
+				E267B4CF23EF485D00835BAD /* View */,
+				E20F2E42234D487C00DE63C1 /* Controller */,
 				E29FD14D244219D6002DA24C /* Resources */,
 				646E1F9C1FB5008A00012C8C /* Info.plist */,
 			);
@@ -118,7 +118,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E20F2E42234D487C00DE63C1 /* Controllers */ = {
+		E20F2E42234D487C00DE63C1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
 				646E1F921FB5008A00012C8C /* MainVC.swift */,
@@ -127,7 +127,7 @@
 				6424F9071FB66E3900028D11 /* TrainVC.swift */,
 				641D70821FD74C3E00CFF975 /* ToneVC.swift */,
 			);
-			name = Controllers;
+			name = Controller;
 			sourceTree = "<group>";
 		};
 		E20F2E43234D48AA00DE63C1 /* Cells */ = {
@@ -144,23 +144,23 @@
 			isa = PBXGroup;
 			children = (
 				E21E5A662438CBC100DF6BAB /* ScheduleData.swift */,
-				E23C30C52445F3E1000B41C0 /* UserDefaultManger.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
 		};
-		E267B4CF23EF485D00835BAD /* Views */ = {
+		E267B4CF23EF485D00835BAD /* View */ = {
 			isa = PBXGroup;
 			children = (
 				E29FD14E24421A3F002DA24C /* Storyboard */,
 				E20F2E43234D48AA00DE63C1 /* Cells */,
 			);
-			name = Views;
+			name = View;
 			sourceTree = "<group>";
 		};
 		E29FD14D244219D6002DA24C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				641C33491FC72D10003FC772 /* Tones */,
 				646E1F971FB5008A00012C8C /* Assets.xcassets */,
 				E23C30CF24466CC7000B41C0 /* Constants.swift */,
 				E23C30CB2445FDFD000B41C0 /* R.generated.swift */,

@@ -56,15 +56,10 @@ extension ToneVC : UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = toneTableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.toneCell.identifier)
-        
         cell!.textLabel!.text = tonesName[indexPath.row]
-        
         cell?.textLabel?.textColor = UIColor.orange
-        
         cell?.textLabel?.font = UIFont(name: "MarkerFelt-Thin", size: 18)
-        
         return cell!
     }
 }

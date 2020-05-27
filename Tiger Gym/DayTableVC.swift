@@ -33,32 +33,7 @@ class DayTableVC: UIViewController {
         }
     }
     
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-      
-        if segue.identifier == R.segue.dayTableVC.dayToTrain.identifier {
-        
-            let selectedRow = dayTableView.indexPathForSelectedRow?.row
-            let type = segue.destination as! TrainListVC
-            type.chosenDay = selectedRow!
-            type.chosenTrain = myChose
-            
-        }
-        
-    }
-
-}
-
-extension DayTableVC : UITableViewDataSource {
-    
-    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return rowsNumber()
-    }
-    
-    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = dayTableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.theDayCell.identifier) as! DayCellVC
-        let index = indexPath.row
-        
+    private func cellData(index:Int,cell:DayCellVC){
         switch myChose {
         case 0:
             cell.configureCell(cellData: ScheduleData.shared.genralDay[index])
@@ -71,9 +46,28 @@ extension DayTableVC : UITableViewDataSource {
         default:
             cell.configureCell(cellData: ScheduleData.shared.trainDay[index])
         }
-        
-        return cell
-
     }
     
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == R.segue.dayTableVC.dayToTrain.identifier {
+            let selectedRow = dayTableView.indexPathForSelectedRow?.row
+            let type = segue.destination as! TrainListVC
+            type.chosenDay = selectedRow!
+            type.chosenTrain = myChose
+        }
+    }
+}
+
+extension DayTableVC : UITableViewDataSource {
+    
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return rowsNumber()
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = dayTableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.theDayCell.identifier) as! DayCellVC
+        let index = indexPath.row
+        cellData(index: index, cell: cell)
+        return cell
+    }
 }
