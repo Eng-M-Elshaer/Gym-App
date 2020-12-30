@@ -11,33 +11,92 @@ import AVFoundation
 
 class TrainVC: UIViewController {
     
+    //MARK:- Outlets
     @IBOutlet weak var trainImageView: UIImageView!
     @IBOutlet weak var trainCountLabel: UILabel!
     @IBOutlet weak var trainWeightLabel: UILabel!
     @IBOutlet weak var startLabel: UIButton!
     @IBOutlet weak var settingBtn: UIBarButtonItem!
     
-    
+    //MARK:- Properties
     var myChose = 0
     var myTrain = 0
     var theDay = 0
     var time = 59
     var theRealTime = 0
     var counter = 0
-    
     var theTimer = Timer()
     var player = AVAudioPlayer()
     
-    
+    //MARK:- Lifecycle Methods
     override func viewDidLoad() {
-        
         super.viewDidLoad()
         setTheTrain()
+    }
+    
+    //MARK:- Actions
+    @IBAction func startBtnTapped(_ sender: UIButton) {
+        theTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
+        startLabel.isHidden = true
+    }
+}
+
+//MARK:- Private Methods
+extension TrainVC {
+    private func setTrainInfo(numberOne: String, numberTwo: String, numberThree: String) {
+        trainCountLabel.text = numberOne
+        trainWeightLabel.text = numberTwo
+        trainImageView.image = UIImage(named : numberThree)
+        if numberOne == ScheduleData.shared.train103 || numberOne == ScheduleData.shared.train104  || numberOne == ScheduleData.shared.train15 || numberOne == ScheduleData.shared.loss || numberOne == ScheduleData.shared.bulk_A  || numberOne == ScheduleData.shared.train8
+        {
+            startLabel.isHidden = true
+        }
+        if numberOne == ScheduleData.shared.min5 {theRealTime = 5 }else if numberOne == ScheduleData.shared.min15 {theRealTime = 15 }else {theRealTime = 20}
+        counter = theRealTime - 1
+    }
+    private func getToneName() -> String {
+        return UserDefaults.standard.value(forKey: "Tone") as? String ?? ""
+    }
+    private func checkThenPlay(){
+        let tone = getToneName()
+        if tone != "" {
+            playSound(TheToneName: tone)
+        } else {
+            playSound(TheToneName: ScheduleData.shared.toneName)
+        }
+    }
+    @objc func timerAction(){
+        time -= 1
+        trainCountLabel.text = "\(counter):\(time)"
+        if time == 0 && counter == 0 {
+            theTimer.invalidate()
+            trainCountLabel.text = "\(theRealTime) Min"
+            startLabel.isHidden = false
+            checkThenPlay()
+            showAlert()
+        } else if time == 0 {
+            time = 59
+            counter -= 1
+        }
+    }
+    
+    private func playSound(TheToneName: String){
+        let TheAudioPath = Bundle.main.path(forResource: TheToneName, ofType: "mp3")
+        do {
+            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath:TheAudioPath!))
+        } catch {
+            print("Error")
+        }
+        player.prepareToPlay()
+        player.play()
+    }
+    private func showAlert (){
+        let errorAlert = UIAlertController(title: "Time Over", message: "The Time End", preferredStyle: .alert)
+        errorAlert.addAction(UIAlertAction(title: "Okay", style: .default, handler: {(action) in self.player.stop()}))
+        self.present(errorAlert, animated: true, completion: nil)
         
     }
-
     private func setTheTrain(){
-        
         if myChose == 0 {
             
             if theDay == 0 {
@@ -1512,91 +1571,5 @@ class TrainVC: UIViewController {
                     setTrainInfo(numberOne: ScheduleData.shared.train15, numberTwo: ScheduleData.shared.higher, numberThree: "7")
                     
                 } } } }
-    
-    
-    private func setTrainInfo(numberOne:String,numberTwo:String,numberThree:String) {
-        
-        trainCountLabel.text = numberOne
-        trainWeightLabel.text = numberTwo
-        trainImageView.image = UIImage(named : numberThree)
-        
-        if numberOne == ScheduleData.shared.train103 || numberOne == ScheduleData.shared.train104  || numberOne == ScheduleData.shared.train15 || numberOne == ScheduleData.shared.loss || numberOne == ScheduleData.shared.bulk_A  || numberOne == ScheduleData.shared.train8
-        {
-            startLabel.isHidden = true
-        }
-        if numberOne == ScheduleData.shared.min5 {theRealTime = 5 }else if numberOne == ScheduleData.shared.min15 {theRealTime = 15 }else {theRealTime = 20}
-        
-        counter = theRealTime - 1
-    }
-    
-    private func getToneName () -> String {
-        
-        return UserDefaults.standard.value(forKey: "Tone") as? String ?? ""
-        
-    }
-    
-    private func checkThenPlay (){
-        let tone = getToneName()
-        if tone != "" {
-            playSound(TheToneName: tone)
-        } else {
-            playSound(TheToneName: ScheduleData.shared.toneName)
-        }
-    }
-    
-    @objc func timerAction(){
-        
-        time -= 1
-        trainCountLabel.text = "\(counter):\(time)"
-        
-        if time == 0 && counter == 0 {
-            
-            theTimer.invalidate()
-            trainCountLabel.text = "\(theRealTime) Min"
-            startLabel.isHidden = false
-            checkThenPlay()
-            showAlert()
-            
-        } else if time == 0 {
-            
-            time = 59
-            counter -= 1
-            
-        }
-        
-    }
-    
-    private func playSound (TheToneName:String){
-        
-        
-        let TheAudioPath = Bundle.main.path(forResource: TheToneName, ofType: "mp3")
-        
-        do {
-            try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath:TheAudioPath!))
-            
-        } catch {
-            
-            print("Error")
-        }
-        
-        player.prepareToPlay()
-        player.play()
-        
-        
-    }
-    
-    private func showAlert (){
-        
-        let errorAlert = UIAlertController(title: "Time Over", message: "The Time End", preferredStyle: .alert)
-        errorAlert.addAction(UIAlertAction(title: "Okay", style: .default, handler: {(action) in self.player.stop()}))
-        self.present(errorAlert, animated: true, completion: nil)
-        
-    }
-    
-    @IBAction func Start(_ sender: Any) {
-        
-        theTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timerAction), userInfo: nil, repeats: true)
-        startLabel.isHidden = true
-    }
-    
+
 }

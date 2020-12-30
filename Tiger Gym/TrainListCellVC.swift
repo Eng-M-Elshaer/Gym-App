@@ -9,30 +9,22 @@
 import UIKit
 
 class TrainListCellVC: UITableViewCell {
-
+    
+    //MARK:- Outlets
     @IBOutlet weak var trainLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
-    func configureCell(index:Int, chosenTrain:Int, chosenDay:Int){
-        
+    //MARK:- Public Method
+    func configureCell(index: Int, chosenTrain: Int, chosenDay: Int){
         if chosenTrain == 0 {
-            
             trainLabel.text = ScheduleData.shared.genralTable[index]
-            
-        }
-            
-        else if chosenTrain == 1 {
-            
+        }else if chosenTrain == 1 {
             if chosenDay == 0 {
                 trainLabel.text = ScheduleData.shared.bulk_A_ChestTable[index]
             } else if chosenDay == 1 {
@@ -44,10 +36,7 @@ class TrainListCellVC: UITableViewCell {
             } else {
                 trainLabel.text = ScheduleData.shared.bulk_A_LegTable[index]
             }
-            
-            
         } else if chosenTrain == 2 {
-            
             if chosenDay == 0 {
                 trainLabel.text = ScheduleData.shared.bulk_B_ChestTable[index]
             } else if chosenDay == 1 {
@@ -59,9 +48,7 @@ class TrainListCellVC: UITableViewCell {
             } else {
                 trainLabel.text = ScheduleData.shared.bulk_B_LegTable[index]
             }
-            
         } else if chosenTrain == 3 {
-            
             if chosenDay == 0 {
                 trainLabel.text = ScheduleData.shared.loss_A_ChestTable[index]
             } else if chosenDay == 1 {
@@ -71,10 +58,7 @@ class TrainListCellVC: UITableViewCell {
             }  else {
                 trainLabel.text = ScheduleData.shared.loss_A_CarTable[index]
             }
-            
-            
         }else if chosenTrain == 4 {
-            
             if chosenDay == 0 {
                 trainLabel.text = ScheduleData.shared.loss_B_PunchTable[index]
             } else if chosenDay == 1 {
@@ -84,9 +68,7 @@ class TrainListCellVC: UITableViewCell {
             }  else {
                 trainLabel.text = ScheduleData.shared.loss_B_CarTable[index]
             }
-            
         } else if chosenTrain == 5 {
-            
             if chosenDay == 0 {
                 trainLabel.text = ScheduleData.shared.super_Chest_BackTable[index]
             } else if chosenDay == 1 {
@@ -95,7 +77,6 @@ class TrainListCellVC: UITableViewCell {
                 trainLabel.text = ScheduleData.shared.super_ArmTable[index]
             }
         }else {
-            
             if chosenDay == 0 {
                 trainLabel.text = ScheduleData.shared.denf_ChestTable[index]
             } else if chosenDay == 1 {
@@ -107,8 +88,6 @@ class TrainListCellVC: UITableViewCell {
             } else {
                 trainLabel.text = ScheduleData.shared.denf_LegTable[index]
             }
-            
-            
-        }    }
-
+        }
+    }
 }

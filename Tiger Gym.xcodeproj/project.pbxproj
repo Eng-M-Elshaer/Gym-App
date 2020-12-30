@@ -95,11 +95,10 @@
 		646E1F8F1FB5008A00012C8C /* Tiger Gym */ = {
 			isa = PBXGroup;
 			children = (
-				646E1F901FB5008A00012C8C /* AppDelegate.swift */,
+				E23C2F16259CC105003AD49B /* Shared */,
 				E21E5A682438CBCF00DF6BAB /* Model */,
 				E267B4CF23EF485D00835BAD /* Views */,
 				E20F2E42234D487C00DE63C1 /* Controllers */,
-				641C33491FC72D10003FC772 /* Tones */,
 				E29FD14D244219D6002DA24C /* Resources */,
 				646E1F9C1FB5008A00012C8C /* Info.plist */,
 			);
@@ -144,10 +143,25 @@
 			name = Model;
 			sourceTree = "<group>";
 		};
+		E23C2F16259CC105003AD49B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				646E1F901FB5008A00012C8C /* AppDelegate.swift */,
+			);
+			name = Shared;
+			sourceTree = "<group>";
+		};
+		E23C2F18259CC196003AD49B /* Asset */ = {
+			isa = PBXGroup;
+			children = (
+				646E1F971FB5008A00012C8C /* Assets.xcassets */,
+			);
+			name = Asset;
+			sourceTree = "<group>";
+		};
 		E267B4CF23EF485D00835BAD /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				E29FD14E24421A3F002DA24C /* Storyboard */,
 				E20F2E43234D48AA00DE63C1 /* Cells */,
 			);
 			name = Views;
@@ -156,7 +170,9 @@
 		E29FD14D244219D6002DA24C /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				646E1F971FB5008A00012C8C /* Assets.xcassets */,
+				641C33491FC72D10003FC772 /* Tones */,
+				E29FD14E24421A3F002DA24C /* Storyboard */,
+				E23C2F18259CC196003AD49B /* Asset */,
 				E29FD14B244219BB002DA24C /* R.generated.swift */,
 			);
 			name = Resources;

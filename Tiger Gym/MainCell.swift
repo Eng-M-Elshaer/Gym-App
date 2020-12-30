@@ -10,21 +10,18 @@ import UIKit
 
 class MainCell: UITableViewCell {
 
+    //MARK:- Outlets
     @IBOutlet weak var mainTypeLabel: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        // Initialization code
     }
-
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
     }
     
+    //MARK:- Public Method
     func configureCell(cellData:String){
         mainTypeLabel.text = cellData
     }
-
 }

@@ -9,34 +9,32 @@
 import UIKit
 
 class DayTableVC: UIViewController {
-
+    
+    //MARK:- Outlets
     @IBOutlet weak var dayTableView: UITableView!
     
+    //MARK:- Properties
     var myChose = 0
     
+    //MARK:- Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
+    //MARK:- Actions
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-      
         if segue.identifier == R.segue.dayTableVC.dayToTrain.identifier {
-        
             let selectedRow = dayTableView.indexPathForSelectedRow?.row
             let type = segue.destination as! TrainListVC
             type.chosenDay = selectedRow!
             type.chosenTrain = myChose
-            
         }
-        
     }
-
 }
 
-extension DayTableVC : UITableViewDataSource {
-    
+//MARK:- UITableViewDataSource
+extension DayTableVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         switch myChose {
         case 0:
             return ScheduleData.shared.genralDay.count
@@ -49,11 +47,8 @@ extension DayTableVC : UITableViewDataSource {
         default:
             return ScheduleData.shared.trainDay.count
         }
-        
     }
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = dayTableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.theDayCell.identifier) as! DayCellVC
         let index = indexPath.row
         
@@ -69,9 +64,6 @@ extension DayTableVC : UITableViewDataSource {
         default:
             cell.configureCell(cellData: ScheduleData.shared.trainDay[index])
         }
-        
         return cell
-
     }
-    
 }

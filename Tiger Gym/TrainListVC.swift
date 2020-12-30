@@ -10,18 +10,20 @@ import UIKit
 
 class TrainListVC: UIViewController {
     
+    //MARK:- Outlets
     @IBOutlet weak var trainTableView: UITableView!
     
+    //MARK:- Properties
     var chosenDay = 0
     var chosenTrain = 0
     
+    //MARK:- Lifecycle Methods
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
-    
+    //MARK:- Actions
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        
         if segue.identifier == R.segue.trainListVC.trainToImage.identifier {
             let selectedRow = trainTableView.indexPathForSelectedRow?.row
             let type = segue.destination as! TrainVC
@@ -31,19 +33,14 @@ class TrainListVC: UIViewController {
             
         }
     }
-    
 }
 
-extension TrainListVC : UITableViewDataSource {
-    
+//MARK:- UITableViewDataSource
+extension TrainListVC: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        
         if chosenTrain == 0 {
             return ScheduleData.shared.genralTable.count
-        }
-            
-        else if chosenTrain == 1 {
-            
+        } else if chosenTrain == 1 {
             if chosenDay == 0 {
                 return ScheduleData.shared.bulk_A_ChestTable.count
             } else if chosenDay == 1 {
@@ -55,10 +52,7 @@ extension TrainListVC : UITableViewDataSource {
             } else {
                 return ScheduleData.shared.bulk_A_LegTable.count
             }
-            
-            
         } else if chosenTrain == 2 {
-            
             if chosenDay == 0 {
                 return ScheduleData.shared.bulk_B_ChestTable.count
             } else if chosenDay == 1 {
@@ -70,9 +64,7 @@ extension TrainListVC : UITableViewDataSource {
             } else {
                 return ScheduleData.shared.bulk_B_LegTable.count
             }
-            
         } else if chosenTrain == 3 {
-            
             if chosenDay == 0 {
                 return ScheduleData.shared.loss_A_ChestTable.count
             } else if chosenDay == 1 {
@@ -82,10 +74,7 @@ extension TrainListVC : UITableViewDataSource {
             }  else {
                 return ScheduleData.shared.loss_A_CarTable.count
             }
-            
-            
         }else if chosenTrain == 4 {
-            
             if chosenDay == 0 {
                 return ScheduleData.shared.loss_B_PunchTable.count
             } else if chosenDay == 1 {
@@ -95,9 +84,7 @@ extension TrainListVC : UITableViewDataSource {
             }  else {
                 return ScheduleData.shared.loss_B_CarTable.count
             }
-            
         } else if chosenTrain == 5 {
-            
             if chosenDay == 0 {
                 return ScheduleData.shared.super_Chest_BackTable.count
             } else if chosenDay == 1 {
@@ -106,7 +93,6 @@ extension TrainListVC : UITableViewDataSource {
                 return ScheduleData.shared.super_ArmTable.count
             }
         }else {
-            
             if chosenDay == 0 {
                 return ScheduleData.shared.denf_ChestTable.count
             } else if chosenDay == 1 {
@@ -118,21 +104,11 @@ extension TrainListVC : UITableViewDataSource {
             } else {
                 return ScheduleData.shared.denf_LegTable.count
             }
-            
-            
         }
-        
     }
-    
-    
-    
-    
-    
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
         let cell = trainTableView.dequeueReusableCell(withIdentifier: R.reuseIdentifier.theTrainCell.identifier ) as! TrainListCellVC
         cell.configureCell(index: indexPath.row, chosenTrain: chosenTrain, chosenDay: chosenDay)
         return cell
     }
-    
 }
